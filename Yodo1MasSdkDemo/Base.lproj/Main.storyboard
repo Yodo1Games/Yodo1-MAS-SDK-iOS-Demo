@@ -1,24 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aDH-zS-d1U">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7kR-PF-u94">
+                                <rect key="frame" x="15" y="64" width="384" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="1NC-IC-WVr"/>
+                                </constraints>
+                                <state key="normal" title="Show Rewarded Ad"/>
+                                <connections>
+                                    <action selector="onRewardClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3zs-61-gn6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8zO-6y-ALN">
+                                <rect key="frame" x="15" y="114" width="384" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="d9k-Nb-ORQ"/>
+                                </constraints>
+                                <state key="normal" title="Show Interstitial Ad"/>
+                                <connections>
+                                    <action selector="onInterstitialClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ltf-x0-TkO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uc2-i6-36K">
+                                <rect key="frame" x="15" y="164" width="384" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="1C2-VD-RYf"/>
+                                </constraints>
+                                <state key="normal" title="Show Banner Ad"/>
+                                <connections>
+                                    <action selector="onBannerClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hea-Os-mbO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2qp-21-OI9">
+                                <rect key="frame" x="15" y="214" width="384" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="sai-w5-37R"/>
+                                </constraints>
+                                <state key="normal" title="AppLovin Mediation Debugger"/>
+                                <connections>
+                                    <action selector="onAppLovinMediationDebuggerClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sFS-7p-rdo"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Set GDPR User Consent" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ok8-Vl-fr5">
+                                <rect key="frame" x="15" y="275" width="183.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y7Y-jI-dos">
+                                <rect key="frame" x="350" y="270" width="51" height="31"/>
+                                <connections>
+                                    <action selector="onGDPRChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="Azj-H0-XTr"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Set COPPA Age Restricted" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zy2-pa-Khe">
+                                <rect key="frame" x="15" y="324" width="201.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="943-Gc-laE">
+                                <rect key="frame" x="350" y="319" width="51" height="31"/>
+                                <connections>
+                                    <action selector="onCOPPAChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="rLW-g6-W5G"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Set CCPA Do Not Sell" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0oc-yj-Hr4">
+                                <rect key="frame" x="15" y="375" width="163.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v3w-MJ-Opc">
+                                <rect key="frame" x="350" y="370" width="51" height="31"/>
+                                <connections>
+                                    <action selector="onCCPAChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="I69-uZ-Mmg"/>
+                                </connections>
+                            </switch>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Xr2-Jb-SsZ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="8zO-6y-ALN" secondAttribute="trailing" constant="15" id="1A0-PS-VCY"/>
+                            <constraint firstItem="943-Gc-laE" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="zy2-pa-Khe" secondAttribute="trailing" constant="20" id="2YX-0p-cVN"/>
+                            <constraint firstItem="uc2-i6-36K" firstAttribute="leading" secondItem="Xr2-Jb-SsZ" secondAttribute="leading" constant="15" id="9VQ-WZ-jaJ"/>
+                            <constraint firstItem="0oc-yj-Hr4" firstAttribute="top" secondItem="Ok8-Vl-fr5" secondAttribute="bottom" constant="79" id="ESJ-Bk-7fR"/>
+                            <constraint firstItem="Ok8-Vl-fr5" firstAttribute="leading" secondItem="2qp-21-OI9" secondAttribute="leading" id="J8m-Qw-Ww8"/>
+                            <constraint firstItem="8zO-6y-ALN" firstAttribute="top" secondItem="7kR-PF-u94" secondAttribute="bottom" constant="15" id="KtS-ld-rxj"/>
+                            <constraint firstItem="Xr2-Jb-SsZ" firstAttribute="trailing" secondItem="Y7Y-jI-dos" secondAttribute="trailing" constant="15" id="L1m-0Z-VQB"/>
+                            <constraint firstItem="0oc-yj-Hr4" firstAttribute="leading" secondItem="Xr2-Jb-SsZ" secondAttribute="leading" constant="15" id="PSB-HD-VFt"/>
+                            <constraint firstItem="7kR-PF-u94" firstAttribute="leading" secondItem="Xr2-Jb-SsZ" secondAttribute="leading" constant="15" id="Pnj-eF-bsu"/>
+                            <constraint firstItem="Xr2-Jb-SsZ" firstAttribute="trailing" secondItem="7kR-PF-u94" secondAttribute="trailing" constant="15" id="Puy-RB-BzP"/>
+                            <constraint firstItem="Xr2-Jb-SsZ" firstAttribute="trailing" secondItem="943-Gc-laE" secondAttribute="trailing" constant="15" id="WzF-LA-mCF"/>
+                            <constraint firstItem="2qp-21-OI9" firstAttribute="top" secondItem="uc2-i6-36K" secondAttribute="bottom" constant="15" id="aR0-BX-qMI"/>
+                            <constraint firstItem="Xr2-Jb-SsZ" firstAttribute="trailing" secondItem="v3w-MJ-Opc" secondAttribute="trailing" constant="15" id="byC-hQ-AC9"/>
+                            <constraint firstItem="uc2-i6-36K" firstAttribute="top" secondItem="8zO-6y-ALN" secondAttribute="bottom" constant="15" id="eOI-gv-XNJ"/>
+                            <constraint firstItem="Ok8-Vl-fr5" firstAttribute="leading" secondItem="zy2-pa-Khe" secondAttribute="leading" id="eZd-cU-Mvm"/>
+                            <constraint firstItem="943-Gc-laE" firstAttribute="centerY" secondItem="zy2-pa-Khe" secondAttribute="centerY" id="l9K-3p-wNr"/>
+                            <constraint firstItem="Y7Y-jI-dos" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Ok8-Vl-fr5" secondAttribute="trailing" constant="20" id="mft-OE-GHz"/>
+                            <constraint firstItem="943-Gc-laE" firstAttribute="top" secondItem="Y7Y-jI-dos" secondAttribute="bottom" constant="18" id="npc-FO-e1X"/>
+                            <constraint firstItem="0oc-yj-Hr4" firstAttribute="top" secondItem="zy2-pa-Khe" secondAttribute="bottom" constant="30" id="paq-ge-18V"/>
+                            <constraint firstItem="v3w-MJ-Opc" firstAttribute="centerY" secondItem="0oc-yj-Hr4" secondAttribute="centerY" id="q8H-Nr-Wke"/>
+                            <constraint firstItem="8zO-6y-ALN" firstAttribute="leading" secondItem="Xr2-Jb-SsZ" secondAttribute="leading" constant="15" id="ucC-UE-H8j"/>
+                            <constraint firstItem="7kR-PF-u94" firstAttribute="top" secondItem="Xr2-Jb-SsZ" secondAttribute="top" constant="20" id="vlv-Y5-8sp"/>
+                            <constraint firstItem="zy2-pa-Khe" firstAttribute="leading" secondItem="Xr2-Jb-SsZ" secondAttribute="leading" constant="15" id="wsM-uo-uY3"/>
+                            <constraint firstItem="Ok8-Vl-fr5" firstAttribute="top" secondItem="2qp-21-OI9" secondAttribute="bottom" constant="26" id="xPh-iz-aJT"/>
+                            <constraint firstItem="Xr2-Jb-SsZ" firstAttribute="trailing" secondItem="uc2-i6-36K" secondAttribute="trailing" constant="15" id="xRw-YW-zk2"/>
+                            <constraint firstItem="v3w-MJ-Opc" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="0oc-yj-Hr4" secondAttribute="trailing" constant="20" id="ydg-tX-CNg"/>
+                            <constraint firstItem="2qp-21-OI9" firstAttribute="trailing" secondItem="Y7Y-jI-dos" secondAttribute="trailing" id="zVo-Pf-cm5"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="ccpaSwitch" destination="v3w-MJ-Opc" id="T3v-4L-ULl"/>
+                        <outlet property="coppaSwitch" destination="943-Gc-laE" id="lGn-TB-TrT"/>
+                        <outlet property="gdprSwitch" destination="Y7Y-jI-dos" id="8gh-la-iZ7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="139" y="105"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
