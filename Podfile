@@ -9,7 +9,7 @@ target "Yodo1MasSdkDemo" do
 
 pod 'Masonry'
 pod 'MBProgressHUD'
-pod 'Yodo1MasSDK', '~> 0.0.0.1-beta'
+pod 'Yodo1MasSDK', '~> 0.0.0.5-beta'
 
 end
 
