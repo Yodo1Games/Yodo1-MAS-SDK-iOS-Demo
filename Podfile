@@ -9,7 +9,8 @@ target "Yodo1MasSdkDemo" do
 
 pod 'Masonry'
 pod 'MBProgressHUD'
-pod 'Yodo1MasSDK', '>= 4.0.0.0'
+pod 'FirebaseAnalytics', '7.0.0'
+pod 'Yodo1MasSDK', '~> 4.0.0.5'
 
 end
 
