@@ -1,21 +1,39 @@
 # Yodo1-MAS-SDK-iOS-Demo
-我们假设你的设备已经安装`cocoapods`，如果未安装请参考`Cocoapods`[官方文档](https://www.cocoapods.org/)
 
-- 使用`终端`执行以下命令
-```ruby
-cd Demo项目根目录
-pod install
-```
+## Overview
 
-- 修改`Bundle Identifier`为你游戏的包名, 
-- 修改`Info.plist`文件中`GADApplicationIdentifier`的值为你游戏的`AdMob Id`
-- 修改`ViewController.m`中`Yodo1Mas`初始化的`AppId`为你游戏的`AppId`
-```iOS
-[[Yodo1Mas sharedInstance] initWithAppId:@"Your App Id" successful:^{
-    
-} fail:^(Yodo1MasError *error) {
-    
-}];
-```
+MAS is Yodo1's in-app monetization solution.
 
-更详细的集成步骤，请参考[文档](https://github.com/Yodo1Games/MAS-Documents/blob/zh-cn/zh-cn/integration-ios.md)
+Please check out our [documentation](https://support.yodo1.com/hc/en-us/articles/360060558854) to get started on integrating.
+
+## Demo App
+
+To get started with the demo app, follow the instructions below:
+
+1. If you already have CocoaPods(1.8.0 and above) installed, please ignore it. Otherwise, to install CocoaPods, use the following command to install CocoaPods.
+
+	```
+	/bin/bash -c "$(curl -fsSL https://gist.githubusercontent.com/nicky9112/0bf903795f77c5052ff12c92e629f975/raw/a8783d03c96b8d1d50f92977bfa0112711fbc57a/install-cocoapods.sh)"
+	```
+
+2. Execute the following commands at Terminal.
+
+	```ruby
+	cd "DemoPath"
+	pod install
+	```
+
+3. Change `Bundle Identifier` to your game's `Bundle Identifier`
+4. Change the value of `GADApplicationIdentifier` in the `Info.plist` file to your game‘s AdMob App ID(Obtain from MAS dashboard).
+5. Change the `Your App Id` value in `ViewController.m` file with the AppId from your MAS dashboard.
+
+	```iOS
+	[[Yodo1Mas sharedInstance] initWithAppId:@"Your App Id" successful:^{
+	    
+	} fail:^(Yodo1MasError *error) {
+	    
+	}];
+	```
+
+## Support
+For feature requests, improvements, questions or any other integration issues using MAS Mediation by Yodo1, please contact us via our support page: https://support.yodo1.com/hc/en-us.
