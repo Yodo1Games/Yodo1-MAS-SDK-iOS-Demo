@@ -10,7 +10,7 @@ target "Yodo1MasSdkDemo" do
 pod 'Masonry'
 pod 'MBProgressHUD'
 pod 'FBSDKCoreKit', '~> 7.0.1' 
-pod 'Yodo1MasFull', '~> 4.0.3.0'
+pod 'Yodo1MasFull', '~> 4.0.4'
 
 end
 
