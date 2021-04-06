@@ -650,6 +650,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QK52KGCUT2;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = Yodo1MasSdkDemoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -671,6 +672,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QK52KGCUT2;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = Yodo1MasSdkDemoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -691,6 +693,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QK52KGCUT2;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = Yodo1MasSdkDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -710,6 +713,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QK52KGCUT2;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = Yodo1MasSdkDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
