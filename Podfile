@@ -1,6 +1,6 @@
 use_frameworks!
 source 'https://cdn.cocoapods.org/' #source 'https://github.com/CocoaPods/Specs.git'
-source 'https://github.com/Yodo1Games/MAS-Spec.git'
+source 'https://github.com/Yodo1Games/MAS-Spec-Dev.git'
 source 'https://github.com/Yodo1Games/Yodo1Spec.git'
 
 platform :ios, '9.0'
@@ -9,8 +9,8 @@ target "Yodo1MasSdkDemo" do
 
 pod 'Masonry'
 pod 'MBProgressHUD'
-pod 'FBSDKCoreKit', '~> 7.0.1' 
-pod 'Yodo1MasFull', '~> 4.0.4'
+pod 'FBSDKCoreKit', '7.0.1'
+pod 'Yodo1MasFull', '4.1.0'
 
 end
 
