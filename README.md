@@ -4,7 +4,7 @@
 
 MAS is Yodo1's in-app monetization solution.
 
-Please check out our [documentation](https://support.yodo1.com/hc/en-us/articles/360060558854) to get started on integrating.
+Please check out our [documentation](https://developers.yodo1.com/article-categories/ios/) to get started on integrating.
 
 ## Demo App
 
