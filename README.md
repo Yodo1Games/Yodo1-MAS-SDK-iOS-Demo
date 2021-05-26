@@ -36,4 +36,4 @@ To get started with the demo app, follow the instructions below:
 	```
 
 ## Support
-For feature requests, improvements, questions or any other integration issues using MAS Mediation by Yodo1, please contact us via our support page: https://support.yodo1.com/hc/en-us.
+For feature requests, improvements, questions or any other integration issues using MAS Mediation by Yodo1, please contact us via our support page: https://developers.yodo1.com/contact-us/.
