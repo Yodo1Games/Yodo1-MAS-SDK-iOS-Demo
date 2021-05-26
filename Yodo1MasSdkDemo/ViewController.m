@@ -31,7 +31,7 @@
     [_hud showAnimated:YES];
     
     __weak __typeof(self)weakSelf = self;
-    [[Yodo1Mas sharedInstance] initWithAppId:@"Your App Id" successful:^{
+    [[Yodo1Mas sharedInstance] initWithAppId:@"Your AppKey" successful:^{
         [weakSelf.hud hideAnimated:YES];
         
         weakSelf.hud.mode = MBProgressHUDModeText;
