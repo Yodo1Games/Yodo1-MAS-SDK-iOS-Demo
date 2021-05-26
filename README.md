@@ -25,10 +25,10 @@ To get started with the demo app, follow the instructions below:
 
 3. Change `Bundle Identifier` to your game's `Bundle Identifier`
 4. Change the value of `GADApplicationIdentifier` in the `Info.plist` file to your game‘s AdMob App ID(Obtain from MAS dashboard).
-5. Change the `Your App Id` value in `ViewController.m` file with the AppId from your MAS dashboard.
+5. Change the `Your AppKey` value in `ViewController.m` file with the AppId from your MAS dashboard.
 
 	```iOS
-	[[Yodo1Mas sharedInstance] initWithAppId:@"Your App Id" successful:^{
+	[[Yodo1Mas sharedInstance] initWithAppId:@"Your AppKey" successful:^{
 	    
 	} fail:^(Yodo1MasError *error) {
 	    

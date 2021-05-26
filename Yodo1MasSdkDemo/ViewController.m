@@ -18,6 +18,7 @@
 @property (weak, nonatomic) IBOutlet UISwitch *ccpaSwitch;
 
 @property (nonatomic, strong) MBProgressHUD *hud;
+@property (nonatomic, weak) NSTimer *_timer;
 
 @end
 
@@ -31,13 +32,14 @@
     [_hud showAnimated:YES];
     
     __weak __typeof(self)weakSelf = self;
-    [[Yodo1Mas sharedInstance] initWithAppId:@"Your App Id" successful:^{
+    [[Yodo1Mas sharedInstance] initWithAppId:@"Your AppKey" successful:^{
         [weakSelf.hud hideAnimated:YES];
         
         weakSelf.hud.mode = MBProgressHUDModeText;
         weakSelf.hud.label.text = @"sdk init successful";
         [weakSelf.hud showAnimated:YES];
         [weakSelf performSelector:@selector(hideHud) withObject:nil afterDelay:0.2];
+        [self showBannerWithTimer];
     } fail:^(Yodo1MasError *error) {
         [weakSelf.hud hideAnimated:YES];
         
@@ -85,6 +87,23 @@
 
 - (IBAction)onCCPAChanged:(UISwitch *)sender {
     [Yodo1Mas sharedInstance].isCCPADoNotSell = sender.isOn;
+}
+
+- (void) showBannerWithTimer {
+    self._timer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(showBanner) userInfo:nil repeats:YES];
+    [[NSRunLoop currentRunLoop] addTimer:self._timer forMode:NSDefaultRunLoopMode];
+}
+
+- (void) invalidateTimer {
+    [self._timer invalidate];
+    self._timer = nil;
+}
+
+- (void) showBanner {
+    if ([[Yodo1Mas sharedInstance] isBannerAdLoaded]) {
+        [[Yodo1Mas sharedInstance] showBannerAd];
+        [self invalidateTimer];
+    }
 }
 
 #pragma mark - Yodo1MasAdDelegate
