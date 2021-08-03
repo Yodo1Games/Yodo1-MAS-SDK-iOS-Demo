@@ -70,7 +70,26 @@
 }
 
 - (IBAction)onBannerClicked:(UIButton *)sender {
-    [[Yodo1Mas sharedInstance] showBannerAd];
+    NSString *placement = @"placementId";
+    
+    /**
+     *
+     * banner alignment, align = vertical | horizontal
+     * vertical:
+     * Yodo1Mas.BannerTop
+     * Yodo1Mas.BannerBottom
+     * Yodo1Mas.BannerVerticalCenter
+     * horizontal:
+     * Yodo1Mas.BannerLeft
+     * Yodo1Mas.BannerRight
+     * Yodo1Mas.BannerHorizontalCenter
+     *
+     */
+    Yodo1MasAdBannerAlign align = Yodo1MasAdBannerAlignBottom | Yodo1MasAdBannerAlignHorizontalCenter;
+    
+    // offset horizontal offset and vertical offset, offset.x > 0, the banner will move to the right. offset.x < 0, the banner will move to the left, offset.y > 0, the banner will move to the bottom. offset.y < 0, the banner will move to the top
+    CGPoint offset = CGPointMake(0, 0);
+    [[Yodo1Mas sharedInstance] showBannerAdWithPlacement:placement align:align offset:offset];
 }
 
 - (IBAction)onAppLovinMediationDebuggerClicked:(UIButton *)sender {
