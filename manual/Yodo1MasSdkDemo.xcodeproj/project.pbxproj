@@ -1,0 +1,2007 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B940EB2626BBB2A0003B6956 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EB2526BBB2A0003B6956 /* AppDelegate.m */; };
+		B940EB2926BBB2A0003B6956 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EB2826BBB2A0003B6956 /* SceneDelegate.m */; };
+		B940EB2C26BBB2A0003B6956 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EB2B26BBB2A0003B6956 /* ViewController.m */; };
+		B940EB2F26BBB2A0003B6956 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B940EB2D26BBB2A0003B6956 /* Main.storyboard */; };
+		B940EB3126BBB2A1003B6956 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B940EB3026BBB2A1003B6956 /* Assets.xcassets */; };
+		B940EB3426BBB2A1003B6956 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B940EB3226BBB2A1003B6956 /* LaunchScreen.storyboard */; };
+		B940EB3726BBB2A1003B6956 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EB3626BBB2A1003B6956 /* main.m */; };
+		B940ECA626BBB309003B6956 /* Yodo1MasFyberAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EB4126BBB309003B6956 /* Yodo1MasFyberAdapter.m */; };
+		B940ECA726BBB309003B6956 /* Yodo1MasFyber.plist in Resources */ = {isa = PBXBuildFile; fileRef = B940EB4426BBB309003B6956 /* Yodo1MasFyber.plist */; };
+		B940ECA826BBB309003B6956 /* IASDKMRAID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EB4626BBB309003B6956 /* IASDKMRAID.framework */; };
+		B940ECA926BBB309003B6956 /* FyberAdapter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EB4726BBB309003B6956 /* FyberAdapter.xcframework */; };
+		B940ECAA26BBB309003B6956 /* IASDKVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EB4826BBB309003B6956 /* IASDKVideo.framework */; };
+		B940ECAB26BBB309003B6956 /* IASDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B940EB4926BBB309003B6956 /* IASDKResources.bundle */; };
+		B940ECAC26BBB309003B6956 /* ISFyberAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EB4A26BBB309003B6956 /* ISFyberAdapter.framework */; };
+		B940ECAD26BBB309003B6956 /* AppLovinMediationFyberAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EB4B26BBB309003B6956 /* AppLovinMediationFyberAdapter.framework */; };
+		B940ECAE26BBB309003B6956 /* IASDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EB4C26BBB309003B6956 /* IASDKCore.framework */; };
+		B940ECAF26BBB309003B6956 /* FairBidSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EB4D26BBB309003B6956 /* FairBidSDK.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		B940ECB026BBB309003B6956 /* yodo1mas.plist in Resources */ = {isa = PBXBuildFile; fileRef = B940EB4E26BBB309003B6956 /* yodo1mas.plist */; };
+		B940ECB126BBB309003B6956 /* Yodo1MasAdMobAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EB5226BBB309003B6956 /* Yodo1MasAdMobAdapter.m */; };
+		B940ECB226BBB309003B6956 /* Yodo1MasAdaptersPrivacy.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EB5326BBB309003B6956 /* Yodo1MasAdaptersPrivacy.m */; };
+		B940ECB326BBB309003B6956 /* Yodo1MasAdMobMaxAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EB5726BBB309003B6956 /* Yodo1MasAdMobMaxAdapter.m */; };
+		B940ECB426BBB309003B6956 /* Yodo1MasAdMob.plist in Resources */ = {isa = PBXBuildFile; fileRef = B940EB5926BBB309003B6956 /* Yodo1MasAdMob.plist */; };
+		B940ECB526BBB309003B6956 /* AppLovinMediationGoogleAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EB5B26BBB309003B6956 /* AppLovinMediationGoogleAdapter.framework */; };
+		B940ECB626BBB309003B6956 /* nanopb.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EB5C26BBB309003B6956 /* nanopb.xcframework */; };
+		B940ECB726BBB309003B6956 /* PromisesObjC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EB5D26BBB309003B6956 /* PromisesObjC.xcframework */; };
+		B940ECB826BBB309003B6956 /* UserMessagingPlatform.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EB5E26BBB309003B6956 /* UserMessagingPlatform.xcframework */; };
+		B940ECB926BBB309003B6956 /* GoogleMobileAds.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EB5F26BBB309003B6956 /* GoogleMobileAds.xcframework */; };
+		B940ECBA26BBB309003B6956 /* GoogleAppMeasurement.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EB6026BBB309003B6956 /* GoogleAppMeasurement.xcframework */; };
+		B940ECBB26BBB309003B6956 /* ISAdMobAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EB6126BBB309003B6956 /* ISAdMobAdapter.framework */; };
+		B940ECBC26BBB309003B6956 /* GoogleUtilities.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EB6226BBB309003B6956 /* GoogleUtilities.xcframework */; };
+		B940ECBD26BBB309003B6956 /* Yodo1SensorsAnalyticsSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B940EB6426BBB309003B6956 /* Yodo1SensorsAnalyticsSDK.bundle */; };
+		B940ECBE26BBB309003B6956 /* Yodo1Ads.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EB6826BBB309003B6956 /* Yodo1Ads.m */; };
+		B940ECBF26BBB309003B6956 /* Yodo1InterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EB6D26BBB309003B6956 /* Yodo1InterstitialViewController.m */; };
+		B940ECC026BBB309003B6956 /* Yodo1MasBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EB6E26BBB309003B6956 /* Yodo1MasBannerView.m */; };
+		B940ECC126BBB309003B6956 /* Yodo1ImageHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EB7326BBB309003B6956 /* Yodo1ImageHelp.m */; };
+		B940ECC226BBB309003B6956 /* Yodo1VideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EB7726BBB309003B6956 /* Yodo1VideoView.m */; };
+		B940ECC326BBB309003B6956 /* Yodo1AVPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EB7926BBB309003B6956 /* Yodo1AVPlayer.m */; };
+		B940ECC426BBB309003B6956 /* Yodo1VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EB7A26BBB309003B6956 /* Yodo1VideoViewController.m */; };
+		B940ECC526BBB309003B6956 /* Yodo1AdsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EB7B26BBB309003B6956 /* Yodo1AdsManager.m */; };
+		B940ECC626BBB309003B6956 /* UIView+Yodo1LayoutMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EB7C26BBB309003B6956 /* UIView+Yodo1LayoutMethods.m */; };
+		B940ECC726BBB309003B6956 /* Yodo1MasAdapterBase.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EB8026BBB309003B6956 /* Yodo1MasAdapterBase.m */; };
+		B940ECC826BBB309003B6956 /* Yodo1MasBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EB8126BBB309003B6956 /* Yodo1MasBanner.m */; };
+		B940ECC926BBB309003B6956 /* Yodo1MasAdBuildConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EB8226BBB309003B6956 /* Yodo1MasAdBuildConfig.m */; };
+		B940ECCA26BBB309003B6956 /* Yodo1MasInitMediationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EB8726BBB309003B6956 /* Yodo1MasInitMediationInfo.m */; };
+		B940ECCB26BBB309003B6956 /* Yodo1MasNetworkMediation.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EB8826BBB309003B6956 /* Yodo1MasNetworkMediation.m */; };
+		B940ECCC26BBB309003B6956 /* Yodo1MasNetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EB8926BBB309003B6956 /* Yodo1MasNetworkConfig.m */; };
+		B940ECCD26BBB309003B6956 /* Yodo1MasInitNetworkInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EB8C26BBB309003B6956 /* Yodo1MasInitNetworkInfo.m */; };
+		B940ECCE26BBB309003B6956 /* Yodo1MasInitConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EB8E26BBB309003B6956 /* Yodo1MasInitConfig.m */; };
+		B940ECCF26BBB309003B6956 /* Yodo1MasInitData.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EB8F26BBB309003B6956 /* Yodo1MasInitData.m */; };
+		B940ECD026BBB309003B6956 /* Yodo1MasNetworkPlacement.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EB9426BBB309003B6956 /* Yodo1MasNetworkPlacement.m */; };
+		B940ECD126BBB309003B6956 /* Yodo1MasNetworkWaterfall.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EB9526BBB309003B6956 /* Yodo1MasNetworkWaterfall.m */; };
+		B940ECD226BBB309003B6956 /* Yodo1MasNetworkAdvert.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EB9626BBB309003B6956 /* Yodo1MasNetworkAdvert.m */; };
+		B940ECD326BBB309003B6956 /* Yodo1Mas.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EB9926BBB309003B6956 /* Yodo1Mas.m */; };
+		B940ECD426BBB309003B6956 /* Yodo1MasError.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EB9B26BBB309003B6956 /* Yodo1MasError.m */; };
+		B940ECD526BBB309003B6956 /* Yodo1MasAdEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EB9E26BBB309003B6956 /* Yodo1MasAdEvent.m */; };
+		B940ECD626BBB309003B6956 /* Yodo1MasCore.plist in Resources */ = {isa = PBXBuildFile; fileRef = B940EBA126BBB309003B6956 /* Yodo1MasCore.plist */; };
+		B940ECD726BBB309003B6956 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EBA526BBB309003B6956 /* NSObject+YYModel.m */; };
+		B940ECD826BBB309003B6956 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EBA626BBB309003B6956 /* YYClassInfo.m */; };
+		B940ECD926BBB309003B6956 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EBAE26BBB309003B6956 /* AFURLResponseSerialization.m */; };
+		B940ECDA26BBB309003B6956 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EBAF26BBB309003B6956 /* AFHTTPSessionManager.m */; };
+		B940ECDB26BBB309003B6956 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EBB126BBB309003B6956 /* AFURLSessionManager.m */; };
+		B940ECDC26BBB309003B6956 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EBB226BBB309003B6956 /* AFURLRequestSerialization.m */; };
+		B940ECDD26BBB309003B6956 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EBB426BBB309003B6956 /* AFNetworkReachabilityManager.m */; };
+		B940ECDE26BBB309003B6956 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EBB526BBB309003B6956 /* AFSecurityPolicy.m */; };
+		B940ECDF26BBB309003B6956 /* Yodo1SaAnalyticsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EBB826BBB309003B6956 /* Yodo1SaAnalyticsSDK.framework */; };
+		B940ECE026BBB309003B6956 /* Yodo1MasYandexAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EBBD26BBB309003B6956 /* Yodo1MasYandexAdapter.m */; };
+		B940ECE126BBB309003B6956 /* Yodo1MasYandex.plist in Resources */ = {isa = PBXBuildFile; fileRef = B940EBBF26BBB309003B6956 /* Yodo1MasYandex.plist */; };
+		B940ECE226BBB309003B6956 /* YandexMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EBC126BBB309003B6956 /* YandexMobileAds.framework */; };
+		B940ECE326BBB309003B6956 /* YandexMobileMetrica.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EBC226BBB309003B6956 /* YandexMobileMetrica.xcframework */; };
+		B940ECE426BBB309003B6956 /* YandexMobileMetricaCrashes.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EBC326BBB309003B6956 /* YandexMobileMetricaCrashes.xcframework */; };
+		B940ECE526BBB309003B6956 /* AppLovinMediationYandexAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EBC426BBB309003B6956 /* AppLovinMediationYandexAdapter.framework */; };
+		B940ECE626BBB30A003B6956 /* Yodo1MasFacebookAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EBC826BBB309003B6956 /* Yodo1MasFacebookAdapter.m */; };
+		B940ECE726BBB30A003B6956 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EBCB26BBB309003B6956 /* FBAudienceNetwork.framework */; };
+		B940ECE826BBB30A003B6956 /* Yodo1MasFacebook.plist in Resources */ = {isa = PBXBuildFile; fileRef = B940EBCD26BBB309003B6956 /* Yodo1MasFacebook.plist */; };
+		B940ECE926BBB30A003B6956 /* FacebookAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EBCF26BBB309003B6956 /* FacebookAdapter.framework */; };
+		B940ECEA26BBB30A003B6956 /* ISFacebookAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EBD026BBB309003B6956 /* ISFacebookAdapter.framework */; };
+		B940ECEB26BBB30A003B6956 /* FBSDKLibAnalyzer.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EBD526BBB309003B6956 /* FBSDKLibAnalyzer.m */; };
+		B940ECEC26BBB30A003B6956 /* FBSDKCrashHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EBD626BBB309003B6956 /* FBSDKCrashHandler.m */; };
+		B940ECED26BBB30A003B6956 /* FBSDKJSONValue.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EBD726BBB309003B6956 /* FBSDKJSONValue.m */; };
+		B940ECEE26BBB30A003B6956 /* FBSDKBasicUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EBD826BBB309003B6956 /* FBSDKBasicUtility.m */; };
+		B940ECEF26BBB30A003B6956 /* FBSDKURLSession.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EBED26BBB309003B6956 /* FBSDKURLSession.m */; };
+		B940ECF026BBB30A003B6956 /* FBSDKTypeUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EBEE26BBB309003B6956 /* FBSDKTypeUtility.m */; };
+		B940ECF126BBB30A003B6956 /* FBSDKURLSessionTask.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EBEF26BBB309003B6956 /* FBSDKURLSessionTask.m */; };
+		B940ECF226BBB30A003B6956 /* FBSDKSafeCast.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EBF026BBB309003B6956 /* FBSDKSafeCast.m */; };
+		B940ECF326BBB30A003B6956 /* FBSDKUserDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EBF126BBB309003B6956 /* FBSDKUserDataStore.m */; };
+		B940ECF426BBB30A003B6956 /* FBSDKBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EBF226BBB309003B6956 /* FBSDKBase64.m */; };
+		B940ECF526BBB30A003B6956 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EBF326BBB309003B6956 /* FBAudienceNetwork.framework */; };
+		B940ECF626BBB30A003B6956 /* AppLovinMediationFacebookAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EBF426BBB309003B6956 /* AppLovinMediationFacebookAdapter.framework */; };
+		B940ECF726BBB30A003B6956 /* Yodo1MasTapjoyAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EBF926BBB309003B6956 /* Yodo1MasTapjoyAdapter.m */; };
+		B940ECF826BBB30A003B6956 /* Yodo1MasTapjoy.plist in Resources */ = {isa = PBXBuildFile; fileRef = B940EBFB26BBB309003B6956 /* Yodo1MasTapjoy.plist */; };
+		B940ECF926BBB30A003B6956 /* ISTapjoyAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EBFD26BBB309003B6956 /* ISTapjoyAdapter.framework */; };
+		B940ECFA26BBB30A003B6956 /* TapjoyAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EBFE26BBB309003B6956 /* TapjoyAdapter.framework */; };
+		B940ECFB26BBB30A003B6956 /* Tapjoy.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EBFF26BBB309003B6956 /* Tapjoy.xcframework */; };
+		B940ECFC26BBB30A003B6956 /* AppLovinMediationTapjoyAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EC0026BBB309003B6956 /* AppLovinMediationTapjoyAdapter.framework */; };
+		B940ECFD26BBB30A003B6956 /* Yodo1MasMyTargetAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EC0426BBB309003B6956 /* Yodo1MasMyTargetAdapter.m */; };
+		B940ECFE26BBB30A003B6956 /* Yodo1MasMyTarget.plist in Resources */ = {isa = PBXBuildFile; fileRef = B940EC0726BBB309003B6956 /* Yodo1MasMyTarget.plist */; };
+		B940ECFF26BBB30A003B6956 /* MyTargetAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EC0926BBB309003B6956 /* MyTargetAdapter.framework */; };
+		B940ED0026BBB30A003B6956 /* MyTargetSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EC0A26BBB309003B6956 /* MyTargetSDK.xcframework */; };
+		B940ED0126BBB30A003B6956 /* AppLovinMediationMyTargetAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EC0B26BBB309003B6956 /* AppLovinMediationMyTargetAdapter.framework */; };
+		B940ED0226BBB30A003B6956 /* Yodo1MasPangleAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EC0F26BBB309003B6956 /* Yodo1MasPangleAdapter.m */; };
+		B940ED0326BBB30A003B6956 /* Yodo1MasPangle.plist in Resources */ = {isa = PBXBuildFile; fileRef = B940EC1226BBB309003B6956 /* Yodo1MasPangle.plist */; };
+		B940ED0426BBB30A003B6956 /* BUAdSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EC1426BBB309003B6956 /* BUAdSDK.framework */; };
+		B940ED0526BBB30A003B6956 /* BUCNAuxiliary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EC1526BBB309003B6956 /* BUCNAuxiliary.framework */; };
+		B940ED0626BBB30A003B6956 /* AppLovinMediationByteDanceAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EC1626BBB309003B6956 /* AppLovinMediationByteDanceAdapter.framework */; };
+		B940ED0726BBB30A003B6956 /* BUVAAuxiliary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EC1726BBB309003B6956 /* BUVAAuxiliary.framework */; };
+		B940ED0826BBB30A003B6956 /* ISPangleAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EC1826BBB309003B6956 /* ISPangleAdapter.framework */; };
+		B940ED0926BBB30A003B6956 /* BUFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EC1926BBB309003B6956 /* BUFoundation.framework */; };
+		B940ED0A26BBB30A003B6956 /* BUAdSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B940EC1A26BBB309003B6956 /* BUAdSDK.bundle */; };
+		B940ED0B26BBB30A003B6956 /* Yodo1MasAppLovinAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EC2026BBB309003B6956 /* Yodo1MasAppLovinAdapter.m */; };
+		B940ED0C26BBB30A003B6956 /* Yodo1MasAppLovinMaxAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EC2126BBB309003B6956 /* Yodo1MasAppLovinMaxAdapter.m */; };
+		B940ED0D26BBB30A003B6956 /* Yodo1MasApplovin.plist in Resources */ = {isa = PBXBuildFile; fileRef = B940EC2326BBB309003B6956 /* Yodo1MasApplovin.plist */; };
+		B940ED0E26BBB30A003B6956 /* AppLovinAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EC2526BBB309003B6956 /* AppLovinAdapter.framework */; };
+		B940ED0F26BBB30A003B6956 /* ISAppLovinAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EC2626BBB309003B6956 /* ISAppLovinAdapter.framework */; };
+		B940ED1026BBB30A003B6956 /* AppLovinSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EC2726BBB309003B6956 /* AppLovinSDK.xcframework */; };
+		B940ED1126BBB30A003B6956 /* AppLovinSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B940EC2826BBB309003B6956 /* AppLovinSDKResources.bundle */; };
+		B940ED1226BBB30A003B6956 /* Yodo1MasAdColonyAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EC2D26BBB309003B6956 /* Yodo1MasAdColonyAdapter.m */; };
+		B940ED1326BBB30A003B6956 /* Yodo1MasAdColony.plist in Resources */ = {isa = PBXBuildFile; fileRef = B940EC2F26BBB309003B6956 /* Yodo1MasAdColony.plist */; };
+		B940ED1426BBB30A003B6956 /* AppLovinMediationAdColonyAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EC3126BBB309003B6956 /* AppLovinMediationAdColonyAdapter.framework */; };
+		B940ED1526BBB30A003B6956 /* ISAdColonyAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EC3226BBB309003B6956 /* ISAdColonyAdapter.framework */; };
+		B940ED1626BBB30A003B6956 /* AdColonyAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EC3326BBB309003B6956 /* AdColonyAdapter.framework */; };
+		B940ED1726BBB30A003B6956 /* AdColony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EC3426BBB309003B6956 /* AdColony.framework */; };
+		B940ED1826BBB30A003B6956 /* AppLovinMediationVungleAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EC3726BBB309003B6956 /* AppLovinMediationVungleAdapter.framework */; };
+		B940ED1926BBB30A003B6956 /* ISVungleAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EC3826BBB309003B6956 /* ISVungleAdapter.framework */; };
+		B940ED1A26BBB30A003B6956 /* VungleSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EC3926BBB309003B6956 /* VungleSDK.xcframework */; };
+		B940ED1B26BBB30A003B6956 /* VungleAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EC3A26BBB309003B6956 /* VungleAdapter.framework */; };
+		B940ED1C26BBB30A003B6956 /* Yodo1MasVungleAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EC3E26BBB309003B6956 /* Yodo1MasVungleAdapter.m */; };
+		B940ED1D26BBB30A003B6956 /* Yodo1MasVungle.plist in Resources */ = {isa = PBXBuildFile; fileRef = B940EC4026BBB309003B6956 /* Yodo1MasVungle.plist */; };
+		B940ED1E26BBB30A003B6956 /* AppLovinMediationUnityAdsAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EC4326BBB309003B6956 /* AppLovinMediationUnityAdsAdapter.framework */; };
+		B940ED1F26BBB30A003B6956 /* UnityAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EC4426BBB309003B6956 /* UnityAds.framework */; };
+		B940ED2026BBB30A003B6956 /* ISUnityAdsAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EC4526BBB309003B6956 /* ISUnityAdsAdapter.framework */; };
+		B940ED2126BBB30A003B6956 /* UnityAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EC4626BBB309003B6956 /* UnityAdapter.framework */; };
+		B940ED2226BBB30A003B6956 /* Yodo1MasUnityAdsAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EC4A26BBB309003B6956 /* Yodo1MasUnityAdsAdapter.m */; };
+		B940ED2326BBB30A003B6956 /* Yodo1MasUnityAds.plist in Resources */ = {isa = PBXBuildFile; fileRef = B940EC4C26BBB309003B6956 /* Yodo1MasUnityAds.plist */; };
+		B940ED2426BBB30A003B6956 /* AppLovinMediationInMobiAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EC4F26BBB309003B6956 /* AppLovinMediationInMobiAdapter.framework */; };
+		B940ED2526BBB30A003B6956 /* InMobiAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EC5026BBB309003B6956 /* InMobiAdapter.framework */; };
+		B940ED2626BBB30A003B6956 /* ISInMobiAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EC5126BBB309003B6956 /* ISInMobiAdapter.framework */; };
+		B940ED2726BBB30A003B6956 /* InMobiSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EC5226BBB309003B6956 /* InMobiSDK.xcframework */; };
+		B940ED2826BBB30A003B6956 /* Yodo1MasInMobiAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EC5626BBB309003B6956 /* Yodo1MasInMobiAdapter.m */; };
+		B940ED2926BBB30A003B6956 /* Yodo1MasInMobi.plist in Resources */ = {isa = PBXBuildFile; fileRef = B940EC5826BBB309003B6956 /* Yodo1MasInMobi.plist */; };
+		B940ED2A26BBB30A003B6956 /* AppLovinMediationTencentGDTAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EC6726BBB309003B6956 /* AppLovinMediationTencentGDTAdapter.framework */; };
+		B940ED2B26BBB30A003B6956 /* libGDTMobSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EC6F26BBB309003B6956 /* libGDTMobSDK.a */; };
+		B940ED2C26BBB30A003B6956 /* Yodo1MasTencentAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = B940EC7A26BBB309003B6956 /* Yodo1MasTencentAdapter.m */; };
+		B940ED2D26BBB30A003B6956 /* libGDTMobSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EC8F26BBB309003B6956 /* libGDTMobSDK.a */; };
+		B940ED2E26BBB30A003B6956 /* Yodo1MasTencent.plist in Resources */ = {isa = PBXBuildFile; fileRef = B940EC9826BBB309003B6956 /* Yodo1MasTencent.plist */; };
+		B940ED2F26BBB30A003B6956 /* IronSourceAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EC9B26BBB309003B6956 /* IronSourceAdapter.framework */; };
+		B940ED3026BBB30A003B6956 /* AppLovinMediationIronSourceAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EC9C26BBB309003B6956 /* AppLovinMediationIronSourceAdapter.framework */; };
+		B940ED3126BBB30A003B6956 /* IronSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940EC9D26BBB309003B6956 /* IronSource.framework */; };
+		B940ED3226BBB30A003B6956 /* Yodo1MasIronSourceMaxAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = B940ECA126BBB309003B6956 /* Yodo1MasIronSourceMaxAdapter.m */; };
+		B940ED3326BBB30A003B6956 /* Yodo1MasIronSourceAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = B940ECA226BBB309003B6956 /* Yodo1MasIronSourceAdapter.m */; };
+		B940ED3426BBB30A003B6956 /* Yodo1MasIronSource.plist in Resources */ = {isa = PBXBuildFile; fileRef = B940ECA526BBB309003B6956 /* Yodo1MasIronSource.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B940EB2126BBB2A0003B6956 /* Yodo1MasSdkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yodo1MasSdkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B940EB2426BBB2A0003B6956 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B940EB2526BBB2A0003B6956 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B940EB2726BBB2A0003B6956 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B940EB2826BBB2A0003B6956 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B940EB2A26BBB2A0003B6956 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B940EB2B26BBB2A0003B6956 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B940EB2E26BBB2A0003B6956 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B940EB3026BBB2A1003B6956 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B940EB3326BBB2A1003B6956 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B940EB3526BBB2A1003B6956 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B940EB3626BBB2A1003B6956 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B940EB4126BBB309003B6956 /* Yodo1MasFyberAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yodo1MasFyberAdapter.m; sourceTree = "<group>"; };
+		B940EB4226BBB309003B6956 /* Yodo1MasFyberAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yodo1MasFyberAdapter.h; sourceTree = "<group>"; };
+		B940EB4426BBB309003B6956 /* Yodo1MasFyber.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Yodo1MasFyber.plist; sourceTree = "<group>"; };
+		B940EB4626BBB309003B6956 /* IASDKMRAID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IASDKMRAID.framework; sourceTree = "<group>"; };
+		B940EB4726BBB309003B6956 /* FyberAdapter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FyberAdapter.xcframework; sourceTree = "<group>"; };
+		B940EB4826BBB309003B6956 /* IASDKVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IASDKVideo.framework; sourceTree = "<group>"; };
+		B940EB4926BBB309003B6956 /* IASDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IASDKResources.bundle; sourceTree = "<group>"; };
+		B940EB4A26BBB309003B6956 /* ISFyberAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ISFyberAdapter.framework; sourceTree = "<group>"; };
+		B940EB4B26BBB309003B6956 /* AppLovinMediationFyberAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppLovinMediationFyberAdapter.framework; sourceTree = "<group>"; };
+		B940EB4C26BBB309003B6956 /* IASDKCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IASDKCore.framework; sourceTree = "<group>"; };
+		B940EB4D26BBB309003B6956 /* FairBidSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FairBidSDK.framework; sourceTree = "<group>"; };
+		B940EB4E26BBB309003B6956 /* yodo1mas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = yodo1mas.plist; sourceTree = "<group>"; };
+		B940EB5226BBB309003B6956 /* Yodo1MasAdMobAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yodo1MasAdMobAdapter.m; sourceTree = "<group>"; };
+		B940EB5326BBB309003B6956 /* Yodo1MasAdaptersPrivacy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yodo1MasAdaptersPrivacy.m; sourceTree = "<group>"; };
+		B940EB5426BBB309003B6956 /* Yodo1MasAdMobMaxAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yodo1MasAdMobMaxAdapter.h; sourceTree = "<group>"; };
+		B940EB5526BBB309003B6956 /* Yodo1MasAdMobAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yodo1MasAdMobAdapter.h; sourceTree = "<group>"; };
+		B940EB5626BBB309003B6956 /* Yodo1MasAdaptersPrivacy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yodo1MasAdaptersPrivacy.h; sourceTree = "<group>"; };
+		B940EB5726BBB309003B6956 /* Yodo1MasAdMobMaxAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yodo1MasAdMobMaxAdapter.m; sourceTree = "<group>"; };
+		B940EB5926BBB309003B6956 /* Yodo1MasAdMob.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Yodo1MasAdMob.plist; sourceTree = "<group>"; };
+		B940EB5B26BBB309003B6956 /* AppLovinMediationGoogleAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppLovinMediationGoogleAdapter.framework; sourceTree = "<group>"; };
+		B940EB5C26BBB309003B6956 /* nanopb.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = nanopb.xcframework; sourceTree = "<group>"; };
+		B940EB5D26BBB309003B6956 /* PromisesObjC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = PromisesObjC.xcframework; sourceTree = "<group>"; };
+		B940EB5E26BBB309003B6956 /* UserMessagingPlatform.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = UserMessagingPlatform.xcframework; sourceTree = "<group>"; };
+		B940EB5F26BBB309003B6956 /* GoogleMobileAds.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleMobileAds.xcframework; sourceTree = "<group>"; };
+		B940EB6026BBB309003B6956 /* GoogleAppMeasurement.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleAppMeasurement.xcframework; sourceTree = "<group>"; };
+		B940EB6126BBB309003B6956 /* ISAdMobAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ISAdMobAdapter.framework; sourceTree = "<group>"; };
+		B940EB6226BBB309003B6956 /* GoogleUtilities.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleUtilities.xcframework; sourceTree = "<group>"; };
+		B940EB6426BBB309003B6956 /* Yodo1SensorsAnalyticsSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Yodo1SensorsAnalyticsSDK.bundle; sourceTree = "<group>"; };
+		B940EB6826BBB309003B6956 /* Yodo1Ads.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yodo1Ads.m; sourceTree = "<group>"; };
+		B940EB6926BBB309003B6956 /* Yodo1Ads.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yodo1Ads.h; sourceTree = "<group>"; };
+		B940EB6A26BBB309003B6956 /* Yodo1Mas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yodo1Mas.h; sourceTree = "<group>"; };
+		B940EB6B26BBB309003B6956 /* Yodo1MasCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yodo1MasCommon.h; sourceTree = "<group>"; };
+		B940EB6D26BBB309003B6956 /* Yodo1InterstitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yodo1InterstitialViewController.m; sourceTree = "<group>"; };
+		B940EB6E26BBB309003B6956 /* Yodo1MasBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yodo1MasBannerView.m; sourceTree = "<group>"; };
+		B940EB6F26BBB309003B6956 /* Yodo1VideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yodo1VideoView.h; sourceTree = "<group>"; };
+		B940EB7026BBB309003B6956 /* Yodo1AdsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yodo1AdsManager.h; sourceTree = "<group>"; };
+		B940EB7126BBB309003B6956 /* Yodo1VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yodo1VideoViewController.h; sourceTree = "<group>"; };
+		B940EB7226BBB309003B6956 /* Yodo1AVPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yodo1AVPlayer.h; sourceTree = "<group>"; };
+		B940EB7326BBB309003B6956 /* Yodo1ImageHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yodo1ImageHelp.m; sourceTree = "<group>"; };
+		B940EB7426BBB309003B6956 /* UIView+Yodo1LayoutMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Yodo1LayoutMethods.h"; sourceTree = "<group>"; };
+		B940EB7526BBB309003B6956 /* Yodo1AdvertConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yodo1AdvertConstant.h; sourceTree = "<group>"; };
+		B940EB7626BBB309003B6956 /* Yodo1InterstitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yodo1InterstitialViewController.h; sourceTree = "<group>"; };
+		B940EB7726BBB309003B6956 /* Yodo1VideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yodo1VideoView.m; sourceTree = "<group>"; };
+		B940EB7826BBB309003B6956 /* Yodo1MasBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yodo1MasBannerView.h; sourceTree = "<group>"; };
+		B940EB7926BBB309003B6956 /* Yodo1AVPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yodo1AVPlayer.m; sourceTree = "<group>"; };
+		B940EB7A26BBB309003B6956 /* Yodo1VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yodo1VideoViewController.m; sourceTree = "<group>"; };
+		B940EB7B26BBB309003B6956 /* Yodo1AdsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yodo1AdsManager.m; sourceTree = "<group>"; };
+		B940EB7C26BBB309003B6956 /* UIView+Yodo1LayoutMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Yodo1LayoutMethods.m"; sourceTree = "<group>"; };
+		B940EB7D26BBB309003B6956 /* Yodo1ImageHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yodo1ImageHelp.h; sourceTree = "<group>"; };
+		B940EB7E26BBB309003B6956 /* Yodo1VideoDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yodo1VideoDelegate.h; sourceTree = "<group>"; };
+		B940EB8026BBB309003B6956 /* Yodo1MasAdapterBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yodo1MasAdapterBase.m; sourceTree = "<group>"; };
+		B940EB8126BBB309003B6956 /* Yodo1MasBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yodo1MasBanner.m; sourceTree = "<group>"; };
+		B940EB8226BBB309003B6956 /* Yodo1MasAdBuildConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yodo1MasAdBuildConfig.m; sourceTree = "<group>"; };
+		B940EB8326BBB309003B6956 /* Yodo1MasAdapterBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yodo1MasAdapterBase.h; sourceTree = "<group>"; };
+		B940EB8426BBB309003B6956 /* Yodo1MasBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yodo1MasBanner.h; sourceTree = "<group>"; };
+		B940EB8526BBB309003B6956 /* Yodo1MasAdBuildConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yodo1MasAdBuildConfig.h; sourceTree = "<group>"; };
+		B940EB8726BBB309003B6956 /* Yodo1MasInitMediationInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yodo1MasInitMediationInfo.m; sourceTree = "<group>"; };
+		B940EB8826BBB309003B6956 /* Yodo1MasNetworkMediation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yodo1MasNetworkMediation.m; sourceTree = "<group>"; };
+		B940EB8926BBB309003B6956 /* Yodo1MasNetworkConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yodo1MasNetworkConfig.m; sourceTree = "<group>"; };
+		B940EB8A26BBB309003B6956 /* Yodo1MasNetworkWaterfall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yodo1MasNetworkWaterfall.h; sourceTree = "<group>"; };
+		B940EB8B26BBB309003B6956 /* Yodo1MasNetworkAdvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yodo1MasNetworkAdvert.h; sourceTree = "<group>"; };
+		B940EB8C26BBB309003B6956 /* Yodo1MasInitNetworkInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yodo1MasInitNetworkInfo.m; sourceTree = "<group>"; };
+		B940EB8D26BBB309003B6956 /* Yodo1MasNetworkPlacement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yodo1MasNetworkPlacement.h; sourceTree = "<group>"; };
+		B940EB8E26BBB309003B6956 /* Yodo1MasInitConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yodo1MasInitConfig.m; sourceTree = "<group>"; };
+		B940EB8F26BBB309003B6956 /* Yodo1MasInitData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yodo1MasInitData.m; sourceTree = "<group>"; };
+		B940EB9026BBB309003B6956 /* Yodo1MasNetworkMediation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yodo1MasNetworkMediation.h; sourceTree = "<group>"; };
+		B940EB9126BBB309003B6956 /* Yodo1MasInitMediationInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yodo1MasInitMediationInfo.h; sourceTree = "<group>"; };
+		B940EB9226BBB309003B6956 /* Yodo1MasInitConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yodo1MasInitConfig.h; sourceTree = "<group>"; };
+		B940EB9326BBB309003B6956 /* Yodo1MasInitNetworkInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yodo1MasInitNetworkInfo.h; sourceTree = "<group>"; };
+		B940EB9426BBB309003B6956 /* Yodo1MasNetworkPlacement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yodo1MasNetworkPlacement.m; sourceTree = "<group>"; };
+		B940EB9526BBB309003B6956 /* Yodo1MasNetworkWaterfall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yodo1MasNetworkWaterfall.m; sourceTree = "<group>"; };
+		B940EB9626BBB309003B6956 /* Yodo1MasNetworkAdvert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yodo1MasNetworkAdvert.m; sourceTree = "<group>"; };
+		B940EB9726BBB309003B6956 /* Yodo1MasNetworkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yodo1MasNetworkConfig.h; sourceTree = "<group>"; };
+		B940EB9826BBB309003B6956 /* Yodo1MasInitData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yodo1MasInitData.h; sourceTree = "<group>"; };
+		B940EB9926BBB309003B6956 /* Yodo1Mas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yodo1Mas.m; sourceTree = "<group>"; };
+		B940EB9B26BBB309003B6956 /* Yodo1MasError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yodo1MasError.m; sourceTree = "<group>"; };
+		B940EB9C26BBB309003B6956 /* Yodo1MasError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yodo1MasError.h; sourceTree = "<group>"; };
+		B940EB9E26BBB309003B6956 /* Yodo1MasAdEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yodo1MasAdEvent.m; sourceTree = "<group>"; };
+		B940EB9F26BBB309003B6956 /* Yodo1MasAdEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yodo1MasAdEvent.h; sourceTree = "<group>"; };
+		B940EBA126BBB309003B6956 /* Yodo1MasCore.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Yodo1MasCore.plist; sourceTree = "<group>"; };
+		B940EBA326BBB309003B6956 /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		B940EBA426BBB309003B6956 /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
+		B940EBA526BBB309003B6956 /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+		B940EBA626BBB309003B6956 /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
+		B940EBA726BBB309003B6956 /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
+		B940EBAA26BBB309003B6956 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		B940EBAB26BBB309003B6956 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		B940EBAC26BBB309003B6956 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		B940EBAD26BBB309003B6956 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		B940EBAE26BBB309003B6956 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		B940EBAF26BBB309003B6956 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		B940EBB026BBB309003B6956 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		B940EBB126BBB309003B6956 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		B940EBB226BBB309003B6956 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		B940EBB326BBB309003B6956 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		B940EBB426BBB309003B6956 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		B940EBB526BBB309003B6956 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		B940EBB626BBB309003B6956 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCompatibilityMacros.h; sourceTree = "<group>"; };
+		B940EBB726BBB309003B6956 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		B940EBB826BBB309003B6956 /* Yodo1SaAnalyticsSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Yodo1SaAnalyticsSDK.framework; sourceTree = "<group>"; };
+		B940EBBC26BBB309003B6956 /* Yodo1MasYandexAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yodo1MasYandexAdapter.h; sourceTree = "<group>"; };
+		B940EBBD26BBB309003B6956 /* Yodo1MasYandexAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yodo1MasYandexAdapter.m; sourceTree = "<group>"; };
+		B940EBBF26BBB309003B6956 /* Yodo1MasYandex.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Yodo1MasYandex.plist; sourceTree = "<group>"; };
+		B940EBC126BBB309003B6956 /* YandexMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YandexMobileAds.framework; sourceTree = "<group>"; };
+		B940EBC226BBB309003B6956 /* YandexMobileMetrica.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = YandexMobileMetrica.xcframework; sourceTree = "<group>"; };
+		B940EBC326BBB309003B6956 /* YandexMobileMetricaCrashes.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = YandexMobileMetricaCrashes.xcframework; sourceTree = "<group>"; };
+		B940EBC426BBB309003B6956 /* AppLovinMediationYandexAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppLovinMediationYandexAdapter.framework; sourceTree = "<group>"; };
+		B940EBC826BBB309003B6956 /* Yodo1MasFacebookAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yodo1MasFacebookAdapter.m; sourceTree = "<group>"; };
+		B940EBC926BBB309003B6956 /* Yodo1MasFacebookAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yodo1MasFacebookAdapter.h; sourceTree = "<group>"; };
+		B940EBCB26BBB309003B6956 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
+		B940EBCD26BBB309003B6956 /* Yodo1MasFacebook.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Yodo1MasFacebook.plist; sourceTree = "<group>"; };
+		B940EBCF26BBB309003B6956 /* FacebookAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookAdapter.framework; sourceTree = "<group>"; };
+		B940EBD026BBB309003B6956 /* ISFacebookAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ISFacebookAdapter.framework; sourceTree = "<group>"; };
+		B940EBD526BBB309003B6956 /* FBSDKLibAnalyzer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSDKLibAnalyzer.m; sourceTree = "<group>"; };
+		B940EBD626BBB309003B6956 /* FBSDKCrashHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSDKCrashHandler.m; sourceTree = "<group>"; };
+		B940EBD726BBB309003B6956 /* FBSDKJSONValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSDKJSONValue.m; sourceTree = "<group>"; };
+		B940EBD826BBB309003B6956 /* FBSDKBasicUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSDKBasicUtility.m; sourceTree = "<group>"; };
+		B940EBDA26BBB309003B6956 /* FBSDKTypeUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSDKTypeUtility.h; sourceTree = "<group>"; };
+		B940EBDB26BBB309003B6956 /* FBSDKFileManaging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSDKFileManaging.h; sourceTree = "<group>"; };
+		B940EBDC26BBB309003B6956 /* FBSDKInfoDictionaryProviding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSDKInfoDictionaryProviding.h; sourceTree = "<group>"; };
+		B940EBDD26BBB309003B6956 /* NSBundle+InfoDictionaryProviding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+InfoDictionaryProviding.h"; sourceTree = "<group>"; };
+		B940EBDE26BBB309003B6956 /* FBSDKURLSessionTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSDKURLSessionTask.h; sourceTree = "<group>"; };
+		B940EBDF26BBB309003B6956 /* FBSDKFileDataExtracting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSDKFileDataExtracting.h; sourceTree = "<group>"; };
+		B940EBE026BBB309003B6956 /* FBSDKBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSDKBase64.h; sourceTree = "<group>"; };
+		B940EBE126BBB309003B6956 /* FBSDKCrashHandlerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSDKCrashHandlerProtocol.h; sourceTree = "<group>"; };
+		B940EBE226BBB309003B6956 /* FBSDKUserDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSDKUserDataStore.h; sourceTree = "<group>"; };
+		B940EBE326BBB309003B6956 /* FBSDKSafeCast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSDKSafeCast.h; sourceTree = "<group>"; };
+		B940EBE426BBB309003B6956 /* FBSDKCrashHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSDKCrashHandler.h; sourceTree = "<group>"; };
+		B940EBE526BBB309003B6956 /* FBSDKLibAnalyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSDKLibAnalyzer.h; sourceTree = "<group>"; };
+		B940EBE626BBB309003B6956 /* FBSDKCrashHandler+CrashHandlerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBSDKCrashHandler+CrashHandlerProtocol.h"; sourceTree = "<group>"; };
+		B940EBE726BBB309003B6956 /* FBSDKBasicUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSDKBasicUtility.h; sourceTree = "<group>"; };
+		B940EBE826BBB309003B6956 /* FBSDKJSONValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSDKJSONValue.h; sourceTree = "<group>"; };
+		B940EBE926BBB309003B6956 /* FBSDKURLSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSDKURLSession.h; sourceTree = "<group>"; };
+		B940EBEA26BBB309003B6956 /* FBSDKCoreKit_Basics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSDKCoreKit_Basics.h; sourceTree = "<group>"; };
+		B940EBEB26BBB309003B6956 /* FBSDKCrashObserving.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSDKCrashObserving.h; sourceTree = "<group>"; };
+		B940EBEC26BBB309003B6956 /* FBSDKSessionProviding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSDKSessionProviding.h; sourceTree = "<group>"; };
+		B940EBED26BBB309003B6956 /* FBSDKURLSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSDKURLSession.m; sourceTree = "<group>"; };
+		B940EBEE26BBB309003B6956 /* FBSDKTypeUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSDKTypeUtility.m; sourceTree = "<group>"; };
+		B940EBEF26BBB309003B6956 /* FBSDKURLSessionTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSDKURLSessionTask.m; sourceTree = "<group>"; };
+		B940EBF026BBB309003B6956 /* FBSDKSafeCast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSDKSafeCast.m; sourceTree = "<group>"; };
+		B940EBF126BBB309003B6956 /* FBSDKUserDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSDKUserDataStore.m; sourceTree = "<group>"; };
+		B940EBF226BBB309003B6956 /* FBSDKBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSDKBase64.m; sourceTree = "<group>"; };
+		B940EBF326BBB309003B6956 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
+		B940EBF426BBB309003B6956 /* AppLovinMediationFacebookAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppLovinMediationFacebookAdapter.framework; sourceTree = "<group>"; };
+		B940EBF826BBB309003B6956 /* Yodo1MasTapjoyAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yodo1MasTapjoyAdapter.h; sourceTree = "<group>"; };
+		B940EBF926BBB309003B6956 /* Yodo1MasTapjoyAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yodo1MasTapjoyAdapter.m; sourceTree = "<group>"; };
+		B940EBFB26BBB309003B6956 /* Yodo1MasTapjoy.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Yodo1MasTapjoy.plist; sourceTree = "<group>"; };
+		B940EBFD26BBB309003B6956 /* ISTapjoyAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ISTapjoyAdapter.framework; sourceTree = "<group>"; };
+		B940EBFE26BBB309003B6956 /* TapjoyAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TapjoyAdapter.framework; sourceTree = "<group>"; };
+		B940EBFF26BBB309003B6956 /* Tapjoy.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Tapjoy.xcframework; sourceTree = "<group>"; };
+		B940EC0026BBB309003B6956 /* AppLovinMediationTapjoyAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppLovinMediationTapjoyAdapter.framework; sourceTree = "<group>"; };
+		B940EC0426BBB309003B6956 /* Yodo1MasMyTargetAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yodo1MasMyTargetAdapter.m; sourceTree = "<group>"; };
+		B940EC0526BBB309003B6956 /* Yodo1MasMyTargetAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yodo1MasMyTargetAdapter.h; sourceTree = "<group>"; };
+		B940EC0726BBB309003B6956 /* Yodo1MasMyTarget.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Yodo1MasMyTarget.plist; sourceTree = "<group>"; };
+		B940EC0926BBB309003B6956 /* MyTargetAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MyTargetAdapter.framework; sourceTree = "<group>"; };
+		B940EC0A26BBB309003B6956 /* MyTargetSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MyTargetSDK.xcframework; sourceTree = "<group>"; };
+		B940EC0B26BBB309003B6956 /* AppLovinMediationMyTargetAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppLovinMediationMyTargetAdapter.framework; sourceTree = "<group>"; };
+		B940EC0F26BBB309003B6956 /* Yodo1MasPangleAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yodo1MasPangleAdapter.m; sourceTree = "<group>"; };
+		B940EC1026BBB309003B6956 /* Yodo1MasPangleAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yodo1MasPangleAdapter.h; sourceTree = "<group>"; };
+		B940EC1226BBB309003B6956 /* Yodo1MasPangle.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Yodo1MasPangle.plist; sourceTree = "<group>"; };
+		B940EC1426BBB309003B6956 /* BUAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BUAdSDK.framework; sourceTree = "<group>"; };
+		B940EC1526BBB309003B6956 /* BUCNAuxiliary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BUCNAuxiliary.framework; sourceTree = "<group>"; };
+		B940EC1626BBB309003B6956 /* AppLovinMediationByteDanceAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppLovinMediationByteDanceAdapter.framework; sourceTree = "<group>"; };
+		B940EC1726BBB309003B6956 /* BUVAAuxiliary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BUVAAuxiliary.framework; sourceTree = "<group>"; };
+		B940EC1826BBB309003B6956 /* ISPangleAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ISPangleAdapter.framework; sourceTree = "<group>"; };
+		B940EC1926BBB309003B6956 /* BUFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BUFoundation.framework; sourceTree = "<group>"; };
+		B940EC1A26BBB309003B6956 /* BUAdSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BUAdSDK.bundle; sourceTree = "<group>"; };
+		B940EC1E26BBB309003B6956 /* Yodo1MasAppLovinMaxAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yodo1MasAppLovinMaxAdapter.h; sourceTree = "<group>"; };
+		B940EC1F26BBB309003B6956 /* Yodo1MasAppLovinAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yodo1MasAppLovinAdapter.h; sourceTree = "<group>"; };
+		B940EC2026BBB309003B6956 /* Yodo1MasAppLovinAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yodo1MasAppLovinAdapter.m; sourceTree = "<group>"; };
+		B940EC2126BBB309003B6956 /* Yodo1MasAppLovinMaxAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yodo1MasAppLovinMaxAdapter.m; sourceTree = "<group>"; };
+		B940EC2326BBB309003B6956 /* Yodo1MasApplovin.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Yodo1MasApplovin.plist; sourceTree = "<group>"; };
+		B940EC2526BBB309003B6956 /* AppLovinAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppLovinAdapter.framework; sourceTree = "<group>"; };
+		B940EC2626BBB309003B6956 /* ISAppLovinAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ISAppLovinAdapter.framework; sourceTree = "<group>"; };
+		B940EC2726BBB309003B6956 /* AppLovinSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AppLovinSDK.xcframework; sourceTree = "<group>"; };
+		B940EC2826BBB309003B6956 /* AppLovinSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AppLovinSDKResources.bundle; sourceTree = "<group>"; };
+		B940EC2C26BBB309003B6956 /* Yodo1MasAdColonyAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yodo1MasAdColonyAdapter.h; sourceTree = "<group>"; };
+		B940EC2D26BBB309003B6956 /* Yodo1MasAdColonyAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yodo1MasAdColonyAdapter.m; sourceTree = "<group>"; };
+		B940EC2F26BBB309003B6956 /* Yodo1MasAdColony.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Yodo1MasAdColony.plist; sourceTree = "<group>"; };
+		B940EC3126BBB309003B6956 /* AppLovinMediationAdColonyAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppLovinMediationAdColonyAdapter.framework; sourceTree = "<group>"; };
+		B940EC3226BBB309003B6956 /* ISAdColonyAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ISAdColonyAdapter.framework; sourceTree = "<group>"; };
+		B940EC3326BBB309003B6956 /* AdColonyAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdColonyAdapter.framework; sourceTree = "<group>"; };
+		B940EC3426BBB309003B6956 /* AdColony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdColony.framework; sourceTree = "<group>"; };
+		B940EC3726BBB309003B6956 /* AppLovinMediationVungleAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppLovinMediationVungleAdapter.framework; sourceTree = "<group>"; };
+		B940EC3826BBB309003B6956 /* ISVungleAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ISVungleAdapter.framework; sourceTree = "<group>"; };
+		B940EC3926BBB309003B6956 /* VungleSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = VungleSDK.xcframework; sourceTree = "<group>"; };
+		B940EC3A26BBB309003B6956 /* VungleAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VungleAdapter.framework; sourceTree = "<group>"; };
+		B940EC3D26BBB309003B6956 /* Yodo1MasVungleAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yodo1MasVungleAdapter.h; sourceTree = "<group>"; };
+		B940EC3E26BBB309003B6956 /* Yodo1MasVungleAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yodo1MasVungleAdapter.m; sourceTree = "<group>"; };
+		B940EC4026BBB309003B6956 /* Yodo1MasVungle.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Yodo1MasVungle.plist; sourceTree = "<group>"; };
+		B940EC4326BBB309003B6956 /* AppLovinMediationUnityAdsAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppLovinMediationUnityAdsAdapter.framework; sourceTree = "<group>"; };
+		B940EC4426BBB309003B6956 /* UnityAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UnityAds.framework; sourceTree = "<group>"; };
+		B940EC4526BBB309003B6956 /* ISUnityAdsAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ISUnityAdsAdapter.framework; sourceTree = "<group>"; };
+		B940EC4626BBB309003B6956 /* UnityAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UnityAdapter.framework; sourceTree = "<group>"; };
+		B940EC4926BBB309003B6956 /* Yodo1MasUnityAdsAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yodo1MasUnityAdsAdapter.h; sourceTree = "<group>"; };
+		B940EC4A26BBB309003B6956 /* Yodo1MasUnityAdsAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yodo1MasUnityAdsAdapter.m; sourceTree = "<group>"; };
+		B940EC4C26BBB309003B6956 /* Yodo1MasUnityAds.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Yodo1MasUnityAds.plist; sourceTree = "<group>"; };
+		B940EC4F26BBB309003B6956 /* AppLovinMediationInMobiAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppLovinMediationInMobiAdapter.framework; sourceTree = "<group>"; };
+		B940EC5026BBB309003B6956 /* InMobiAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = InMobiAdapter.framework; sourceTree = "<group>"; };
+		B940EC5126BBB309003B6956 /* ISInMobiAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ISInMobiAdapter.framework; sourceTree = "<group>"; };
+		B940EC5226BBB309003B6956 /* InMobiSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = InMobiSDK.xcframework; sourceTree = "<group>"; };
+		B940EC5526BBB309003B6956 /* Yodo1MasInMobiAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yodo1MasInMobiAdapter.h; sourceTree = "<group>"; };
+		B940EC5626BBB309003B6956 /* Yodo1MasInMobiAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yodo1MasInMobiAdapter.m; sourceTree = "<group>"; };
+		B940EC5826BBB309003B6956 /* Yodo1MasInMobi.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Yodo1MasInMobi.plist; sourceTree = "<group>"; };
+		B940EC5B26BBB309003B6956 /* GDTRewardVideoAdNetworkAdapterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTRewardVideoAdNetworkAdapterProtocol.h; sourceTree = "<group>"; };
+		B940EC5C26BBB309003B6956 /* GDTNativeExpressAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTNativeExpressAdView.h; sourceTree = "<group>"; };
+		B940EC5D26BBB309003B6956 /* GDTAdParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTAdParams.h; sourceTree = "<group>"; };
+		B940EC5E26BBB309003B6956 /* GDTAdTestSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTAdTestSetting.h; sourceTree = "<group>"; };
+		B940EC5F26BBB309003B6956 /* GDTUnifiedBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTUnifiedBannerView.h; sourceTree = "<group>"; };
+		B940EC6026BBB309003B6956 /* GDTServerSideVerificationOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTServerSideVerificationOptions.h; sourceTree = "<group>"; };
+		B940EC6126BBB309003B6956 /* GDTSDKConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTSDKConfig.h; sourceTree = "<group>"; };
+		B940EC6226BBB309003B6956 /* GDTBaseAdNetworkAdapterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTBaseAdNetworkAdapterProtocol.h; sourceTree = "<group>"; };
+		B940EC6326BBB309003B6956 /* GDTRewardVideoAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTRewardVideoAd.h; sourceTree = "<group>"; };
+		B940EC6426BBB309003B6956 /* GDTSplashAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTSplashAd.h; sourceTree = "<group>"; };
+		B940EC6526BBB309003B6956 /* GDTNativeExpressAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTNativeExpressAd.h; sourceTree = "<group>"; };
+		B940EC6626BBB309003B6956 /* GDTLogoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTLogoView.h; sourceTree = "<group>"; };
+		B940EC6726BBB309003B6956 /* AppLovinMediationTencentGDTAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppLovinMediationTencentGDTAdapter.framework; sourceTree = "<group>"; };
+		B940EC6826BBB309003B6956 /* GDTMediaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTMediaView.h; sourceTree = "<group>"; };
+		B940EC6926BBB309003B6956 /* GDTUnifiedNativeAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTUnifiedNativeAdView.h; sourceTree = "<group>"; };
+		B940EC6A26BBB309003B6956 /* GDTNativeExpressRewardVideoAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTNativeExpressRewardVideoAd.h; sourceTree = "<group>"; };
+		B940EC6B26BBB309003B6956 /* GDTHybridAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTHybridAd.h; sourceTree = "<group>"; };
+		B940EC6C26BBB309003B6956 /* GDTUnifiedNativeAdDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTUnifiedNativeAdDataObject.h; sourceTree = "<group>"; };
+		B940EC6D26BBB309003B6956 /* GDTSDKDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTSDKDefines.h; sourceTree = "<group>"; };
+		B940EC6E26BBB309003B6956 /* GDTUnifiedInterstitialAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTUnifiedInterstitialAd.h; sourceTree = "<group>"; };
+		B940EC6F26BBB309003B6956 /* libGDTMobSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGDTMobSDK.a; sourceTree = "<group>"; };
+		B940EC7026BBB309003B6956 /* GDTNativeExpressProAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTNativeExpressProAdView.h; sourceTree = "<group>"; };
+		B940EC7126BBB309003B6956 /* GDTLoadAdParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTLoadAdParams.h; sourceTree = "<group>"; };
+		B940EC7226BBB309003B6956 /* GDTSplashZoomOutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTSplashZoomOutView.h; sourceTree = "<group>"; };
+		B940EC7326BBB309003B6956 /* GDTRewardVideoAdNetworkConnectorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTRewardVideoAdNetworkConnectorProtocol.h; sourceTree = "<group>"; };
+		B940EC7426BBB309003B6956 /* GDTNativeExpressProAdManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTNativeExpressProAdManager.h; sourceTree = "<group>"; };
+		B940EC7526BBB309003B6956 /* GDTUnifiedNativeAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTUnifiedNativeAd.h; sourceTree = "<group>"; };
+		B940EC7626BBB309003B6956 /* GDTVideoConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTVideoConfig.h; sourceTree = "<group>"; };
+		B940EC7926BBB309003B6956 /* Yodo1MasTencentAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yodo1MasTencentAdapter.h; sourceTree = "<group>"; };
+		B940EC7A26BBB309003B6956 /* Yodo1MasTencentAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yodo1MasTencentAdapter.m; sourceTree = "<group>"; };
+		B940EC7C26BBB309003B6956 /* GDTRewardVideoAdNetworkAdapterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTRewardVideoAdNetworkAdapterProtocol.h; sourceTree = "<group>"; };
+		B940EC7D26BBB309003B6956 /* GDTNativeExpressAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTNativeExpressAdView.h; sourceTree = "<group>"; };
+		B940EC7E26BBB309003B6956 /* GDTAdParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTAdParams.h; sourceTree = "<group>"; };
+		B940EC7F26BBB309003B6956 /* GDTAdTestSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTAdTestSetting.h; sourceTree = "<group>"; };
+		B940EC8026BBB309003B6956 /* GDTUnifiedBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTUnifiedBannerView.h; sourceTree = "<group>"; };
+		B940EC8126BBB309003B6956 /* GDTServerSideVerificationOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTServerSideVerificationOptions.h; sourceTree = "<group>"; };
+		B940EC8226BBB309003B6956 /* GDTSDKConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTSDKConfig.h; sourceTree = "<group>"; };
+		B940EC8326BBB309003B6956 /* GDTBaseAdNetworkAdapterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTBaseAdNetworkAdapterProtocol.h; sourceTree = "<group>"; };
+		B940EC8426BBB309003B6956 /* GDTRewardVideoAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTRewardVideoAd.h; sourceTree = "<group>"; };
+		B940EC8526BBB309003B6956 /* GDTSplashAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTSplashAd.h; sourceTree = "<group>"; };
+		B940EC8626BBB309003B6956 /* GDTNativeExpressAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTNativeExpressAd.h; sourceTree = "<group>"; };
+		B940EC8726BBB309003B6956 /* GDTLogoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTLogoView.h; sourceTree = "<group>"; };
+		B940EC8826BBB309003B6956 /* GDTMediaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTMediaView.h; sourceTree = "<group>"; };
+		B940EC8926BBB309003B6956 /* GDTUnifiedNativeAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTUnifiedNativeAdView.h; sourceTree = "<group>"; };
+		B940EC8A26BBB309003B6956 /* GDTNativeExpressRewardVideoAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTNativeExpressRewardVideoAd.h; sourceTree = "<group>"; };
+		B940EC8B26BBB309003B6956 /* GDTHybridAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTHybridAd.h; sourceTree = "<group>"; };
+		B940EC8C26BBB309003B6956 /* GDTUnifiedNativeAdDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTUnifiedNativeAdDataObject.h; sourceTree = "<group>"; };
+		B940EC8D26BBB309003B6956 /* GDTSDKDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTSDKDefines.h; sourceTree = "<group>"; };
+		B940EC8E26BBB309003B6956 /* GDTUnifiedInterstitialAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTUnifiedInterstitialAd.h; sourceTree = "<group>"; };
+		B940EC8F26BBB309003B6956 /* libGDTMobSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGDTMobSDK.a; sourceTree = "<group>"; };
+		B940EC9026BBB309003B6956 /* GDTNativeExpressProAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTNativeExpressProAdView.h; sourceTree = "<group>"; };
+		B940EC9126BBB309003B6956 /* GDTLoadAdParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTLoadAdParams.h; sourceTree = "<group>"; };
+		B940EC9226BBB309003B6956 /* GDTSplashZoomOutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTSplashZoomOutView.h; sourceTree = "<group>"; };
+		B940EC9326BBB309003B6956 /* GDTRewardVideoAdNetworkConnectorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTRewardVideoAdNetworkConnectorProtocol.h; sourceTree = "<group>"; };
+		B940EC9426BBB309003B6956 /* GDTNativeExpressProAdManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTNativeExpressProAdManager.h; sourceTree = "<group>"; };
+		B940EC9526BBB309003B6956 /* GDTUnifiedNativeAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTUnifiedNativeAd.h; sourceTree = "<group>"; };
+		B940EC9626BBB309003B6956 /* GDTVideoConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTVideoConfig.h; sourceTree = "<group>"; };
+		B940EC9826BBB309003B6956 /* Yodo1MasTencent.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Yodo1MasTencent.plist; sourceTree = "<group>"; };
+		B940EC9B26BBB309003B6956 /* IronSourceAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IronSourceAdapter.framework; sourceTree = "<group>"; };
+		B940EC9C26BBB309003B6956 /* AppLovinMediationIronSourceAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppLovinMediationIronSourceAdapter.framework; sourceTree = "<group>"; };
+		B940EC9D26BBB309003B6956 /* IronSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IronSource.framework; sourceTree = "<group>"; };
+		B940ECA026BBB309003B6956 /* Yodo1MasIronSourceAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yodo1MasIronSourceAdapter.h; sourceTree = "<group>"; };
+		B940ECA126BBB309003B6956 /* Yodo1MasIronSourceMaxAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yodo1MasIronSourceMaxAdapter.m; sourceTree = "<group>"; };
+		B940ECA226BBB309003B6956 /* Yodo1MasIronSourceAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yodo1MasIronSourceAdapter.m; sourceTree = "<group>"; };
+		B940ECA326BBB309003B6956 /* Yodo1MasIronSourceMaxAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yodo1MasIronSourceMaxAdapter.h; sourceTree = "<group>"; };
+		B940ECA526BBB309003B6956 /* Yodo1MasIronSource.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Yodo1MasIronSource.plist; sourceTree = "<group>"; };
+		B9B1BBB026BBB3E9000400DF /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		B9B1BBB126BBB3ED000400DF /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
+		B9B1BBB226BBB3F4000400DF /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		B9B1BBB326BBB3F9000400DF /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		B9B1BBB426BBB401000400DF /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		B9B1BBB526BBB43D000400DF /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		B9B1BBB626BBB445000400DF /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		B9B1BBB726BBB44B000400DF /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		B9B1BBB826BBB451000400DF /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B9B1BBB926BBB456000400DF /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B940EB1E26BBB2A0003B6956 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B940ECAE26BBB309003B6956 /* IASDKCore.framework in Frameworks */,
+				B940ECAA26BBB309003B6956 /* IASDKVideo.framework in Frameworks */,
+				B940ED0426BBB30A003B6956 /* BUAdSDK.framework in Frameworks */,
+				B940ED2726BBB30A003B6956 /* InMobiSDK.xcframework in Frameworks */,
+				B940ED0626BBB30A003B6956 /* AppLovinMediationByteDanceAdapter.framework in Frameworks */,
+				B940ECE926BBB30A003B6956 /* FacebookAdapter.framework in Frameworks */,
+				B940ECAC26BBB309003B6956 /* ISFyberAdapter.framework in Frameworks */,
+				B940ECEA26BBB30A003B6956 /* ISFacebookAdapter.framework in Frameworks */,
+				B940ED2A26BBB30A003B6956 /* AppLovinMediationTencentGDTAdapter.framework in Frameworks */,
+				B940ED1526BBB30A003B6956 /* ISAdColonyAdapter.framework in Frameworks */,
+				B940ED2626BBB30A003B6956 /* ISInMobiAdapter.framework in Frameworks */,
+				B940ECDF26BBB309003B6956 /* Yodo1SaAnalyticsSDK.framework in Frameworks */,
+				B940ECE426BBB309003B6956 /* YandexMobileMetricaCrashes.xcframework in Frameworks */,
+				B940ECFF26BBB30A003B6956 /* MyTargetAdapter.framework in Frameworks */,
+				B940ED0826BBB30A003B6956 /* ISPangleAdapter.framework in Frameworks */,
+				B940ECE326BBB309003B6956 /* YandexMobileMetrica.xcframework in Frameworks */,
+				B940ECFC26BBB30A003B6956 /* AppLovinMediationTapjoyAdapter.framework in Frameworks */,
+				B940ED2526BBB30A003B6956 /* InMobiAdapter.framework in Frameworks */,
+				B940ED1F26BBB30A003B6956 /* UnityAds.framework in Frameworks */,
+				B940ED0F26BBB30A003B6956 /* ISAppLovinAdapter.framework in Frameworks */,
+				B940ECBA26BBB309003B6956 /* GoogleAppMeasurement.xcframework in Frameworks */,
+				B940ECBB26BBB309003B6956 /* ISAdMobAdapter.framework in Frameworks */,
+				B940ECBC26BBB309003B6956 /* GoogleUtilities.xcframework in Frameworks */,
+				B940ED2D26BBB30A003B6956 /* libGDTMobSDK.a in Frameworks */,
+				B940ED0026BBB30A003B6956 /* MyTargetSDK.xcframework in Frameworks */,
+				B940ED0E26BBB30A003B6956 /* AppLovinAdapter.framework in Frameworks */,
+				B940ECA926BBB309003B6956 /* FyberAdapter.xcframework in Frameworks */,
+				B940ED1E26BBB30A003B6956 /* AppLovinMediationUnityAdsAdapter.framework in Frameworks */,
+				B940ECA826BBB309003B6956 /* IASDKMRAID.framework in Frameworks */,
+				B940ECB526BBB309003B6956 /* AppLovinMediationGoogleAdapter.framework in Frameworks */,
+				B940ECE726BBB30A003B6956 /* FBAudienceNetwork.framework in Frameworks */,
+				B940ECF526BBB30A003B6956 /* FBAudienceNetwork.framework in Frameworks */,
+				B940ED3126BBB30A003B6956 /* IronSource.framework in Frameworks */,
+				B940ECB626BBB309003B6956 /* nanopb.xcframework in Frameworks */,
+				B940ECE526BBB309003B6956 /* AppLovinMediationYandexAdapter.framework in Frameworks */,
+				B940ED2026BBB30A003B6956 /* ISUnityAdsAdapter.framework in Frameworks */,
+				B940ED1826BBB30A003B6956 /* AppLovinMediationVungleAdapter.framework in Frameworks */,
+				B940ED1626BBB30A003B6956 /* AdColonyAdapter.framework in Frameworks */,
+				B940ED3026BBB30A003B6956 /* AppLovinMediationIronSourceAdapter.framework in Frameworks */,
+				B940ED2426BBB30A003B6956 /* AppLovinMediationInMobiAdapter.framework in Frameworks */,
+				B940ED1B26BBB30A003B6956 /* VungleAdapter.framework in Frameworks */,
+				B940ECE226BBB309003B6956 /* YandexMobileAds.framework in Frameworks */,
+				B940ED2F26BBB30A003B6956 /* IronSourceAdapter.framework in Frameworks */,
+				B940ED1426BBB30A003B6956 /* AppLovinMediationAdColonyAdapter.framework in Frameworks */,
+				B940ECFA26BBB30A003B6956 /* TapjoyAdapter.framework in Frameworks */,
+				B940ED0726BBB30A003B6956 /* BUVAAuxiliary.framework in Frameworks */,
+				B940ED0126BBB30A003B6956 /* AppLovinMediationMyTargetAdapter.framework in Frameworks */,
+				B940ED2B26BBB30A003B6956 /* libGDTMobSDK.a in Frameworks */,
+				B940ED2126BBB30A003B6956 /* UnityAdapter.framework in Frameworks */,
+				B940ED1926BBB30A003B6956 /* ISVungleAdapter.framework in Frameworks */,
+				B940ECB926BBB309003B6956 /* GoogleMobileAds.xcframework in Frameworks */,
+				B940ED1726BBB30A003B6956 /* AdColony.framework in Frameworks */,
+				B940ECAD26BBB309003B6956 /* AppLovinMediationFyberAdapter.framework in Frameworks */,
+				B940ED0926BBB30A003B6956 /* BUFoundation.framework in Frameworks */,
+				B940ECB826BBB309003B6956 /* UserMessagingPlatform.xcframework in Frameworks */,
+				B940ECF626BBB30A003B6956 /* AppLovinMediationFacebookAdapter.framework in Frameworks */,
+				B940ED0526BBB30A003B6956 /* BUCNAuxiliary.framework in Frameworks */,
+				B940ECFB26BBB30A003B6956 /* Tapjoy.xcframework in Frameworks */,
+				B940ECF926BBB30A003B6956 /* ISTapjoyAdapter.framework in Frameworks */,
+				B940ECAF26BBB309003B6956 /* FairBidSDK.framework in Frameworks */,
+				B940ED1026BBB30A003B6956 /* AppLovinSDK.xcframework in Frameworks */,
+				B940ECB726BBB309003B6956 /* PromisesObjC.xcframework in Frameworks */,
+				B940ED1A26BBB30A003B6956 /* VungleSDK.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B940EB1826BBB2A0003B6956 = {
+			isa = PBXGroup;
+			children = (
+				B940EB2326BBB2A0003B6956 /* Yodo1MasSdkDemo */,
+				B940EB2226BBB2A0003B6956 /* Products */,
+				B9B1BBAF26BBB3E9000400DF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B940EB2226BBB2A0003B6956 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B940EB2126BBB2A0003B6956 /* Yodo1MasSdkDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B940EB2326BBB2A0003B6956 /* Yodo1MasSdkDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B940EB3D26BBB309003B6956 /* Yodo1MasFull */,
+				B940EB2426BBB2A0003B6956 /* AppDelegate.h */,
+				B940EB2526BBB2A0003B6956 /* AppDelegate.m */,
+				B940EB2726BBB2A0003B6956 /* SceneDelegate.h */,
+				B940EB2826BBB2A0003B6956 /* SceneDelegate.m */,
+				B940EB2A26BBB2A0003B6956 /* ViewController.h */,
+				B940EB2B26BBB2A0003B6956 /* ViewController.m */,
+				B940EB2D26BBB2A0003B6956 /* Main.storyboard */,
+				B940EB3026BBB2A1003B6956 /* Assets.xcassets */,
+				B940EB3226BBB2A1003B6956 /* LaunchScreen.storyboard */,
+				B940EB3526BBB2A1003B6956 /* Info.plist */,
+				B940EB3626BBB2A1003B6956 /* main.m */,
+			);
+			path = Yodo1MasSdkDemo;
+			sourceTree = "<group>";
+		};
+		B940EB3D26BBB309003B6956 /* Yodo1MasFull */ = {
+			isa = PBXGroup;
+			children = (
+				B940EB3E26BBB309003B6956 /* Yodo1MasMediationFyber */,
+				B940EB4E26BBB309003B6956 /* yodo1mas.plist */,
+				B940EB4F26BBB309003B6956 /* Yodo1MasMediationAdMob */,
+				B940EB6326BBB309003B6956 /* Yodo1MasCore */,
+				B940EBB926BBB309003B6956 /* Yodo1MasMediationYandex */,
+				B940EBC526BBB309003B6956 /* Yodo1MasMediationFacebook */,
+				B940EBF526BBB309003B6956 /* Yodo1MasMediationTapjoy */,
+				B940EC0126BBB309003B6956 /* Yodo1MasMediationMyTarget */,
+				B940EC0C26BBB309003B6956 /* Yodo1MasMediationPangle */,
+				B940EC1B26BBB309003B6956 /* Yodo1MasMediationApplovin */,
+				B940EC2926BBB309003B6956 /* Yodo1MasMediationAdColony */,
+				B940EC3526BBB309003B6956 /* Yodo1MasMediationVungle */,
+				B940EC4126BBB309003B6956 /* Yodo1MasMediationUnityAds */,
+				B940EC4D26BBB309003B6956 /* Yodo1MasMediationInMobi */,
+				B940EC5926BBB309003B6956 /* Yodo1MasMediationTencent */,
+				B940EC9926BBB309003B6956 /* Yodo1MasMediationIronSource */,
+			);
+			path = Yodo1MasFull;
+			sourceTree = "<group>";
+		};
+		B940EB3E26BBB309003B6956 /* Yodo1MasMediationFyber */ = {
+			isa = PBXGroup;
+			children = (
+				B940EB3F26BBB309003B6956 /* Yodo1MasMediationFyber */,
+				B940EB4526BBB309003B6956 /* Lib */,
+			);
+			path = Yodo1MasMediationFyber;
+			sourceTree = "<group>";
+		};
+		B940EB3F26BBB309003B6956 /* Yodo1MasMediationFyber */ = {
+			isa = PBXGroup;
+			children = (
+				B940EB4026BBB309003B6956 /* Classes */,
+				B940EB4326BBB309003B6956 /* Assets */,
+			);
+			path = Yodo1MasMediationFyber;
+			sourceTree = "<group>";
+		};
+		B940EB4026BBB309003B6956 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B940EB4126BBB309003B6956 /* Yodo1MasFyberAdapter.m */,
+				B940EB4226BBB309003B6956 /* Yodo1MasFyberAdapter.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B940EB4326BBB309003B6956 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B940EB4426BBB309003B6956 /* Yodo1MasFyber.plist */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B940EB4526BBB309003B6956 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				B940EB4626BBB309003B6956 /* IASDKMRAID.framework */,
+				B940EB4726BBB309003B6956 /* FyberAdapter.xcframework */,
+				B940EB4826BBB309003B6956 /* IASDKVideo.framework */,
+				B940EB4926BBB309003B6956 /* IASDKResources.bundle */,
+				B940EB4A26BBB309003B6956 /* ISFyberAdapter.framework */,
+				B940EB4B26BBB309003B6956 /* AppLovinMediationFyberAdapter.framework */,
+				B940EB4C26BBB309003B6956 /* IASDKCore.framework */,
+				B940EB4D26BBB309003B6956 /* FairBidSDK.framework */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		B940EB4F26BBB309003B6956 /* Yodo1MasMediationAdMob */ = {
+			isa = PBXGroup;
+			children = (
+				B940EB5026BBB309003B6956 /* Yodo1MasMediationAdMob */,
+				B940EB5A26BBB309003B6956 /* Lib */,
+			);
+			path = Yodo1MasMediationAdMob;
+			sourceTree = "<group>";
+		};
+		B940EB5026BBB309003B6956 /* Yodo1MasMediationAdMob */ = {
+			isa = PBXGroup;
+			children = (
+				B940EB5126BBB309003B6956 /* Classes */,
+				B940EB5826BBB309003B6956 /* Assets */,
+			);
+			path = Yodo1MasMediationAdMob;
+			sourceTree = "<group>";
+		};
+		B940EB5126BBB309003B6956 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B940EB5226BBB309003B6956 /* Yodo1MasAdMobAdapter.m */,
+				B940EB5326BBB309003B6956 /* Yodo1MasAdaptersPrivacy.m */,
+				B940EB5426BBB309003B6956 /* Yodo1MasAdMobMaxAdapter.h */,
+				B940EB5526BBB309003B6956 /* Yodo1MasAdMobAdapter.h */,
+				B940EB5626BBB309003B6956 /* Yodo1MasAdaptersPrivacy.h */,
+				B940EB5726BBB309003B6956 /* Yodo1MasAdMobMaxAdapter.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B940EB5826BBB309003B6956 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B940EB5926BBB309003B6956 /* Yodo1MasAdMob.plist */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B940EB5A26BBB309003B6956 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				B940EB5B26BBB309003B6956 /* AppLovinMediationGoogleAdapter.framework */,
+				B940EB5C26BBB309003B6956 /* nanopb.xcframework */,
+				B940EB5D26BBB309003B6956 /* PromisesObjC.xcframework */,
+				B940EB5E26BBB309003B6956 /* UserMessagingPlatform.xcframework */,
+				B940EB5F26BBB309003B6956 /* GoogleMobileAds.xcframework */,
+				B940EB6026BBB309003B6956 /* GoogleAppMeasurement.xcframework */,
+				B940EB6126BBB309003B6956 /* ISAdMobAdapter.framework */,
+				B940EB6226BBB309003B6956 /* GoogleUtilities.xcframework */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		B940EB6326BBB309003B6956 /* Yodo1MasCore */ = {
+			isa = PBXGroup;
+			children = (
+				B940EB6426BBB309003B6956 /* Yodo1SensorsAnalyticsSDK.bundle */,
+				B940EB6526BBB309003B6956 /* Yodo1MasCore */,
+				B940EBA226BBB309003B6956 /* YYModel */,
+				B940EBA826BBB309003B6956 /* Lib */,
+				B940EBA926BBB309003B6956 /* AFNetworking */,
+				B940EBB826BBB309003B6956 /* Yodo1SaAnalyticsSDK.framework */,
+			);
+			path = Yodo1MasCore;
+			sourceTree = "<group>";
+		};
+		B940EB6526BBB309003B6956 /* Yodo1MasCore */ = {
+			isa = PBXGroup;
+			children = (
+				B940EB6626BBB309003B6956 /* Classes */,
+				B940EBA026BBB309003B6956 /* Assets */,
+			);
+			path = Yodo1MasCore;
+			sourceTree = "<group>";
+		};
+		B940EB6626BBB309003B6956 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B940EB6726BBB309003B6956 /* Ads */,
+				B940EB6A26BBB309003B6956 /* Yodo1Mas.h */,
+				B940EB6B26BBB309003B6956 /* Yodo1MasCommon.h */,
+				B940EB6C26BBB309003B6956 /* AdTest */,
+				B940EB7F26BBB309003B6956 /* Mediation */,
+				B940EB8626BBB309003B6956 /* Model */,
+				B940EB9926BBB309003B6956 /* Yodo1Mas.m */,
+				B940EB9A26BBB309003B6956 /* Error */,
+				B940EB9D26BBB309003B6956 /* Event */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B940EB6726BBB309003B6956 /* Ads */ = {
+			isa = PBXGroup;
+			children = (
+				B940EB6826BBB309003B6956 /* Yodo1Ads.m */,
+				B940EB6926BBB309003B6956 /* Yodo1Ads.h */,
+			);
+			path = Ads;
+			sourceTree = "<group>";
+		};
+		B940EB6C26BBB309003B6956 /* AdTest */ = {
+			isa = PBXGroup;
+			children = (
+				B940EB6D26BBB309003B6956 /* Yodo1InterstitialViewController.m */,
+				B940EB6E26BBB309003B6956 /* Yodo1MasBannerView.m */,
+				B940EB6F26BBB309003B6956 /* Yodo1VideoView.h */,
+				B940EB7026BBB309003B6956 /* Yodo1AdsManager.h */,
+				B940EB7126BBB309003B6956 /* Yodo1VideoViewController.h */,
+				B940EB7226BBB309003B6956 /* Yodo1AVPlayer.h */,
+				B940EB7326BBB309003B6956 /* Yodo1ImageHelp.m */,
+				B940EB7426BBB309003B6956 /* UIView+Yodo1LayoutMethods.h */,
+				B940EB7526BBB309003B6956 /* Yodo1AdvertConstant.h */,
+				B940EB7626BBB309003B6956 /* Yodo1InterstitialViewController.h */,
+				B940EB7726BBB309003B6956 /* Yodo1VideoView.m */,
+				B940EB7826BBB309003B6956 /* Yodo1MasBannerView.h */,
+				B940EB7926BBB309003B6956 /* Yodo1AVPlayer.m */,
+				B940EB7A26BBB309003B6956 /* Yodo1VideoViewController.m */,
+				B940EB7B26BBB309003B6956 /* Yodo1AdsManager.m */,
+				B940EB7C26BBB309003B6956 /* UIView+Yodo1LayoutMethods.m */,
+				B940EB7D26BBB309003B6956 /* Yodo1ImageHelp.h */,
+				B940EB7E26BBB309003B6956 /* Yodo1VideoDelegate.h */,
+			);
+			path = AdTest;
+			sourceTree = "<group>";
+		};
+		B940EB7F26BBB309003B6956 /* Mediation */ = {
+			isa = PBXGroup;
+			children = (
+				B940EB8026BBB309003B6956 /* Yodo1MasAdapterBase.m */,
+				B940EB8126BBB309003B6956 /* Yodo1MasBanner.m */,
+				B940EB8226BBB309003B6956 /* Yodo1MasAdBuildConfig.m */,
+				B940EB8326BBB309003B6956 /* Yodo1MasAdapterBase.h */,
+				B940EB8426BBB309003B6956 /* Yodo1MasBanner.h */,
+				B940EB8526BBB309003B6956 /* Yodo1MasAdBuildConfig.h */,
+			);
+			path = Mediation;
+			sourceTree = "<group>";
+		};
+		B940EB8626BBB309003B6956 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B940EB8726BBB309003B6956 /* Yodo1MasInitMediationInfo.m */,
+				B940EB8826BBB309003B6956 /* Yodo1MasNetworkMediation.m */,
+				B940EB8926BBB309003B6956 /* Yodo1MasNetworkConfig.m */,
+				B940EB8A26BBB309003B6956 /* Yodo1MasNetworkWaterfall.h */,
+				B940EB8B26BBB309003B6956 /* Yodo1MasNetworkAdvert.h */,
+				B940EB8C26BBB309003B6956 /* Yodo1MasInitNetworkInfo.m */,
+				B940EB8D26BBB309003B6956 /* Yodo1MasNetworkPlacement.h */,
+				B940EB8E26BBB309003B6956 /* Yodo1MasInitConfig.m */,
+				B940EB8F26BBB309003B6956 /* Yodo1MasInitData.m */,
+				B940EB9026BBB309003B6956 /* Yodo1MasNetworkMediation.h */,
+				B940EB9126BBB309003B6956 /* Yodo1MasInitMediationInfo.h */,
+				B940EB9226BBB309003B6956 /* Yodo1MasInitConfig.h */,
+				B940EB9326BBB309003B6956 /* Yodo1MasInitNetworkInfo.h */,
+				B940EB9426BBB309003B6956 /* Yodo1MasNetworkPlacement.m */,
+				B940EB9526BBB309003B6956 /* Yodo1MasNetworkWaterfall.m */,
+				B940EB9626BBB309003B6956 /* Yodo1MasNetworkAdvert.m */,
+				B940EB9726BBB309003B6956 /* Yodo1MasNetworkConfig.h */,
+				B940EB9826BBB309003B6956 /* Yodo1MasInitData.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B940EB9A26BBB309003B6956 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				B940EB9B26BBB309003B6956 /* Yodo1MasError.m */,
+				B940EB9C26BBB309003B6956 /* Yodo1MasError.h */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		B940EB9D26BBB309003B6956 /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				B940EB9E26BBB309003B6956 /* Yodo1MasAdEvent.m */,
+				B940EB9F26BBB309003B6956 /* Yodo1MasAdEvent.h */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		B940EBA026BBB309003B6956 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B940EBA126BBB309003B6956 /* Yodo1MasCore.plist */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B940EBA226BBB309003B6956 /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				B940EBA326BBB309003B6956 /* YYClassInfo.h */,
+				B940EBA426BBB309003B6956 /* YYModel.h */,
+				B940EBA526BBB309003B6956 /* NSObject+YYModel.m */,
+				B940EBA626BBB309003B6956 /* YYClassInfo.m */,
+				B940EBA726BBB309003B6956 /* NSObject+YYModel.h */,
+			);
+			path = YYModel;
+			sourceTree = "<group>";
+		};
+		B940EBA826BBB309003B6956 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		B940EBA926BBB309003B6956 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				B940EBAA26BBB309003B6956 /* AFSecurityPolicy.h */,
+				B940EBAB26BBB309003B6956 /* AFNetworkReachabilityManager.h */,
+				B940EBAC26BBB309003B6956 /* AFURLSessionManager.h */,
+				B940EBAD26BBB309003B6956 /* AFURLRequestSerialization.h */,
+				B940EBAE26BBB309003B6956 /* AFURLResponseSerialization.m */,
+				B940EBAF26BBB309003B6956 /* AFHTTPSessionManager.m */,
+				B940EBB026BBB309003B6956 /* AFURLResponseSerialization.h */,
+				B940EBB126BBB309003B6956 /* AFURLSessionManager.m */,
+				B940EBB226BBB309003B6956 /* AFURLRequestSerialization.m */,
+				B940EBB326BBB309003B6956 /* AFNetworking.h */,
+				B940EBB426BBB309003B6956 /* AFNetworkReachabilityManager.m */,
+				B940EBB526BBB309003B6956 /* AFSecurityPolicy.m */,
+				B940EBB626BBB309003B6956 /* AFCompatibilityMacros.h */,
+				B940EBB726BBB309003B6956 /* AFHTTPSessionManager.h */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		B940EBB926BBB309003B6956 /* Yodo1MasMediationYandex */ = {
+			isa = PBXGroup;
+			children = (
+				B940EBBA26BBB309003B6956 /* Yodo1MasMediationYandex */,
+				B940EBC026BBB309003B6956 /* Lib */,
+			);
+			path = Yodo1MasMediationYandex;
+			sourceTree = "<group>";
+		};
+		B940EBBA26BBB309003B6956 /* Yodo1MasMediationYandex */ = {
+			isa = PBXGroup;
+			children = (
+				B940EBBB26BBB309003B6956 /* Classes */,
+				B940EBBE26BBB309003B6956 /* Assets */,
+			);
+			path = Yodo1MasMediationYandex;
+			sourceTree = "<group>";
+		};
+		B940EBBB26BBB309003B6956 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B940EBBC26BBB309003B6956 /* Yodo1MasYandexAdapter.h */,
+				B940EBBD26BBB309003B6956 /* Yodo1MasYandexAdapter.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B940EBBE26BBB309003B6956 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B940EBBF26BBB309003B6956 /* Yodo1MasYandex.plist */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B940EBC026BBB309003B6956 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				B940EBC126BBB309003B6956 /* YandexMobileAds.framework */,
+				B940EBC226BBB309003B6956 /* YandexMobileMetrica.xcframework */,
+				B940EBC326BBB309003B6956 /* YandexMobileMetricaCrashes.xcframework */,
+				B940EBC426BBB309003B6956 /* AppLovinMediationYandexAdapter.framework */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		B940EBC526BBB309003B6956 /* Yodo1MasMediationFacebook */ = {
+			isa = PBXGroup;
+			children = (
+				B940EBC626BBB309003B6956 /* Yodo1MasMediationFacebook */,
+				B940EBCE26BBB309003B6956 /* Lib */,
+			);
+			path = Yodo1MasMediationFacebook;
+			sourceTree = "<group>";
+		};
+		B940EBC626BBB309003B6956 /* Yodo1MasMediationFacebook */ = {
+			isa = PBXGroup;
+			children = (
+				B940EBC726BBB309003B6956 /* Classes */,
+				B940EBCA26BBB309003B6956 /* Lib */,
+				B940EBCC26BBB309003B6956 /* Assets */,
+			);
+			path = Yodo1MasMediationFacebook;
+			sourceTree = "<group>";
+		};
+		B940EBC726BBB309003B6956 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B940EBC826BBB309003B6956 /* Yodo1MasFacebookAdapter.m */,
+				B940EBC926BBB309003B6956 /* Yodo1MasFacebookAdapter.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B940EBCA26BBB309003B6956 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				B940EBCB26BBB309003B6956 /* FBAudienceNetwork.framework */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		B940EBCC26BBB309003B6956 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B940EBCD26BBB309003B6956 /* Yodo1MasFacebook.plist */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B940EBCE26BBB309003B6956 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				B940EBCF26BBB309003B6956 /* FacebookAdapter.framework */,
+				B940EBD026BBB309003B6956 /* ISFacebookAdapter.framework */,
+				B940EBD126BBB309003B6956 /* FBSDKCoreKit_Basics */,
+				B940EBF326BBB309003B6956 /* FBAudienceNetwork.framework */,
+				B940EBF426BBB309003B6956 /* AppLovinMediationFacebookAdapter.framework */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		B940EBD126BBB309003B6956 /* FBSDKCoreKit_Basics */ = {
+			isa = PBXGroup;
+			children = (
+				B940EBD226BBB309003B6956 /* Sources */,
+			);
+			path = FBSDKCoreKit_Basics;
+			sourceTree = "<group>";
+		};
+		B940EBD226BBB309003B6956 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B940EBD326BBB309003B6956 /* FBSDKCoreKit */,
+				B940EBD426BBB309003B6956 /* FBSDKCoreKit_Basics */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		B940EBD326BBB309003B6956 /* FBSDKCoreKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FBSDKCoreKit;
+			sourceTree = "<group>";
+		};
+		B940EBD426BBB309003B6956 /* FBSDKCoreKit_Basics */ = {
+			isa = PBXGroup;
+			children = (
+				B940EBD526BBB309003B6956 /* FBSDKLibAnalyzer.m */,
+				B940EBD626BBB309003B6956 /* FBSDKCrashHandler.m */,
+				B940EBD726BBB309003B6956 /* FBSDKJSONValue.m */,
+				B940EBD826BBB309003B6956 /* FBSDKBasicUtility.m */,
+				B940EBD926BBB309003B6956 /* include */,
+				B940EBED26BBB309003B6956 /* FBSDKURLSession.m */,
+				B940EBEE26BBB309003B6956 /* FBSDKTypeUtility.m */,
+				B940EBEF26BBB309003B6956 /* FBSDKURLSessionTask.m */,
+				B940EBF026BBB309003B6956 /* FBSDKSafeCast.m */,
+				B940EBF126BBB309003B6956 /* FBSDKUserDataStore.m */,
+				B940EBF226BBB309003B6956 /* FBSDKBase64.m */,
+			);
+			path = FBSDKCoreKit_Basics;
+			sourceTree = "<group>";
+		};
+		B940EBD926BBB309003B6956 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				B940EBDA26BBB309003B6956 /* FBSDKTypeUtility.h */,
+				B940EBDB26BBB309003B6956 /* FBSDKFileManaging.h */,
+				B940EBDC26BBB309003B6956 /* FBSDKInfoDictionaryProviding.h */,
+				B940EBDD26BBB309003B6956 /* NSBundle+InfoDictionaryProviding.h */,
+				B940EBDE26BBB309003B6956 /* FBSDKURLSessionTask.h */,
+				B940EBDF26BBB309003B6956 /* FBSDKFileDataExtracting.h */,
+				B940EBE026BBB309003B6956 /* FBSDKBase64.h */,
+				B940EBE126BBB309003B6956 /* FBSDKCrashHandlerProtocol.h */,
+				B940EBE226BBB309003B6956 /* FBSDKUserDataStore.h */,
+				B940EBE326BBB309003B6956 /* FBSDKSafeCast.h */,
+				B940EBE426BBB309003B6956 /* FBSDKCrashHandler.h */,
+				B940EBE526BBB309003B6956 /* FBSDKLibAnalyzer.h */,
+				B940EBE626BBB309003B6956 /* FBSDKCrashHandler+CrashHandlerProtocol.h */,
+				B940EBE726BBB309003B6956 /* FBSDKBasicUtility.h */,
+				B940EBE826BBB309003B6956 /* FBSDKJSONValue.h */,
+				B940EBE926BBB309003B6956 /* FBSDKURLSession.h */,
+				B940EBEA26BBB309003B6956 /* FBSDKCoreKit_Basics.h */,
+				B940EBEB26BBB309003B6956 /* FBSDKCrashObserving.h */,
+				B940EBEC26BBB309003B6956 /* FBSDKSessionProviding.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		B940EBF526BBB309003B6956 /* Yodo1MasMediationTapjoy */ = {
+			isa = PBXGroup;
+			children = (
+				B940EBF626BBB309003B6956 /* Yodo1MasMediationTapjoy */,
+				B940EBFC26BBB309003B6956 /* Lib */,
+			);
+			path = Yodo1MasMediationTapjoy;
+			sourceTree = "<group>";
+		};
+		B940EBF626BBB309003B6956 /* Yodo1MasMediationTapjoy */ = {
+			isa = PBXGroup;
+			children = (
+				B940EBF726BBB309003B6956 /* Classes */,
+				B940EBFA26BBB309003B6956 /* Assets */,
+			);
+			path = Yodo1MasMediationTapjoy;
+			sourceTree = "<group>";
+		};
+		B940EBF726BBB309003B6956 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B940EBF826BBB309003B6956 /* Yodo1MasTapjoyAdapter.h */,
+				B940EBF926BBB309003B6956 /* Yodo1MasTapjoyAdapter.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B940EBFA26BBB309003B6956 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B940EBFB26BBB309003B6956 /* Yodo1MasTapjoy.plist */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B940EBFC26BBB309003B6956 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				B940EBFD26BBB309003B6956 /* ISTapjoyAdapter.framework */,
+				B940EBFE26BBB309003B6956 /* TapjoyAdapter.framework */,
+				B940EBFF26BBB309003B6956 /* Tapjoy.xcframework */,
+				B940EC0026BBB309003B6956 /* AppLovinMediationTapjoyAdapter.framework */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		B940EC0126BBB309003B6956 /* Yodo1MasMediationMyTarget */ = {
+			isa = PBXGroup;
+			children = (
+				B940EC0226BBB309003B6956 /* Yodo1MasMediationMyTarget */,
+				B940EC0826BBB309003B6956 /* Lib */,
+			);
+			path = Yodo1MasMediationMyTarget;
+			sourceTree = "<group>";
+		};
+		B940EC0226BBB309003B6956 /* Yodo1MasMediationMyTarget */ = {
+			isa = PBXGroup;
+			children = (
+				B940EC0326BBB309003B6956 /* Classes */,
+				B940EC0626BBB309003B6956 /* Assets */,
+			);
+			path = Yodo1MasMediationMyTarget;
+			sourceTree = "<group>";
+		};
+		B940EC0326BBB309003B6956 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B940EC0426BBB309003B6956 /* Yodo1MasMyTargetAdapter.m */,
+				B940EC0526BBB309003B6956 /* Yodo1MasMyTargetAdapter.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B940EC0626BBB309003B6956 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B940EC0726BBB309003B6956 /* Yodo1MasMyTarget.plist */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B940EC0826BBB309003B6956 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				B940EC0926BBB309003B6956 /* MyTargetAdapter.framework */,
+				B940EC0A26BBB309003B6956 /* MyTargetSDK.xcframework */,
+				B940EC0B26BBB309003B6956 /* AppLovinMediationMyTargetAdapter.framework */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		B940EC0C26BBB309003B6956 /* Yodo1MasMediationPangle */ = {
+			isa = PBXGroup;
+			children = (
+				B940EC0D26BBB309003B6956 /* Yodo1MasMediationPangle */,
+				B940EC1326BBB309003B6956 /* Lib */,
+			);
+			path = Yodo1MasMediationPangle;
+			sourceTree = "<group>";
+		};
+		B940EC0D26BBB309003B6956 /* Yodo1MasMediationPangle */ = {
+			isa = PBXGroup;
+			children = (
+				B940EC0E26BBB309003B6956 /* Classes */,
+				B940EC1126BBB309003B6956 /* Assets */,
+			);
+			path = Yodo1MasMediationPangle;
+			sourceTree = "<group>";
+		};
+		B940EC0E26BBB309003B6956 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B940EC0F26BBB309003B6956 /* Yodo1MasPangleAdapter.m */,
+				B940EC1026BBB309003B6956 /* Yodo1MasPangleAdapter.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B940EC1126BBB309003B6956 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B940EC1226BBB309003B6956 /* Yodo1MasPangle.plist */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B940EC1326BBB309003B6956 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				B940EC1426BBB309003B6956 /* BUAdSDK.framework */,
+				B940EC1526BBB309003B6956 /* BUCNAuxiliary.framework */,
+				B940EC1626BBB309003B6956 /* AppLovinMediationByteDanceAdapter.framework */,
+				B940EC1726BBB309003B6956 /* BUVAAuxiliary.framework */,
+				B940EC1826BBB309003B6956 /* ISPangleAdapter.framework */,
+				B940EC1926BBB309003B6956 /* BUFoundation.framework */,
+				B940EC1A26BBB309003B6956 /* BUAdSDK.bundle */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		B940EC1B26BBB309003B6956 /* Yodo1MasMediationApplovin */ = {
+			isa = PBXGroup;
+			children = (
+				B940EC1C26BBB309003B6956 /* Yodo1MasMediationApplovin */,
+				B940EC2426BBB309003B6956 /* Lib */,
+			);
+			path = Yodo1MasMediationApplovin;
+			sourceTree = "<group>";
+		};
+		B940EC1C26BBB309003B6956 /* Yodo1MasMediationApplovin */ = {
+			isa = PBXGroup;
+			children = (
+				B940EC1D26BBB309003B6956 /* Classes */,
+				B940EC2226BBB309003B6956 /* Assets */,
+			);
+			path = Yodo1MasMediationApplovin;
+			sourceTree = "<group>";
+		};
+		B940EC1D26BBB309003B6956 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B940EC1E26BBB309003B6956 /* Yodo1MasAppLovinMaxAdapter.h */,
+				B940EC1F26BBB309003B6956 /* Yodo1MasAppLovinAdapter.h */,
+				B940EC2026BBB309003B6956 /* Yodo1MasAppLovinAdapter.m */,
+				B940EC2126BBB309003B6956 /* Yodo1MasAppLovinMaxAdapter.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B940EC2226BBB309003B6956 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B940EC2326BBB309003B6956 /* Yodo1MasApplovin.plist */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B940EC2426BBB309003B6956 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				B940EC2526BBB309003B6956 /* AppLovinAdapter.framework */,
+				B940EC2626BBB309003B6956 /* ISAppLovinAdapter.framework */,
+				B940EC2726BBB309003B6956 /* AppLovinSDK.xcframework */,
+				B940EC2826BBB309003B6956 /* AppLovinSDKResources.bundle */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		B940EC2926BBB309003B6956 /* Yodo1MasMediationAdColony */ = {
+			isa = PBXGroup;
+			children = (
+				B940EC2A26BBB309003B6956 /* Yodo1MasMediationAdColony */,
+				B940EC3026BBB309003B6956 /* Lib */,
+			);
+			path = Yodo1MasMediationAdColony;
+			sourceTree = "<group>";
+		};
+		B940EC2A26BBB309003B6956 /* Yodo1MasMediationAdColony */ = {
+			isa = PBXGroup;
+			children = (
+				B940EC2B26BBB309003B6956 /* Classes */,
+				B940EC2E26BBB309003B6956 /* Assets */,
+			);
+			path = Yodo1MasMediationAdColony;
+			sourceTree = "<group>";
+		};
+		B940EC2B26BBB309003B6956 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B940EC2C26BBB309003B6956 /* Yodo1MasAdColonyAdapter.h */,
+				B940EC2D26BBB309003B6956 /* Yodo1MasAdColonyAdapter.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B940EC2E26BBB309003B6956 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B940EC2F26BBB309003B6956 /* Yodo1MasAdColony.plist */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B940EC3026BBB309003B6956 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				B940EC3126BBB309003B6956 /* AppLovinMediationAdColonyAdapter.framework */,
+				B940EC3226BBB309003B6956 /* ISAdColonyAdapter.framework */,
+				B940EC3326BBB309003B6956 /* AdColonyAdapter.framework */,
+				B940EC3426BBB309003B6956 /* AdColony.framework */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		B940EC3526BBB309003B6956 /* Yodo1MasMediationVungle */ = {
+			isa = PBXGroup;
+			children = (
+				B940EC3626BBB309003B6956 /* Lib */,
+				B940EC3B26BBB309003B6956 /* Yodo1MasMediationVungle */,
+			);
+			path = Yodo1MasMediationVungle;
+			sourceTree = "<group>";
+		};
+		B940EC3626BBB309003B6956 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				B940EC3726BBB309003B6956 /* AppLovinMediationVungleAdapter.framework */,
+				B940EC3826BBB309003B6956 /* ISVungleAdapter.framework */,
+				B940EC3926BBB309003B6956 /* VungleSDK.xcframework */,
+				B940EC3A26BBB309003B6956 /* VungleAdapter.framework */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		B940EC3B26BBB309003B6956 /* Yodo1MasMediationVungle */ = {
+			isa = PBXGroup;
+			children = (
+				B940EC3C26BBB309003B6956 /* Classes */,
+				B940EC3F26BBB309003B6956 /* Assets */,
+			);
+			path = Yodo1MasMediationVungle;
+			sourceTree = "<group>";
+		};
+		B940EC3C26BBB309003B6956 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B940EC3D26BBB309003B6956 /* Yodo1MasVungleAdapter.h */,
+				B940EC3E26BBB309003B6956 /* Yodo1MasVungleAdapter.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B940EC3F26BBB309003B6956 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B940EC4026BBB309003B6956 /* Yodo1MasVungle.plist */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B940EC4126BBB309003B6956 /* Yodo1MasMediationUnityAds */ = {
+			isa = PBXGroup;
+			children = (
+				B940EC4226BBB309003B6956 /* Lib */,
+				B940EC4726BBB309003B6956 /* Yodo1MasMediationUnityAds */,
+			);
+			path = Yodo1MasMediationUnityAds;
+			sourceTree = "<group>";
+		};
+		B940EC4226BBB309003B6956 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				B940EC4326BBB309003B6956 /* AppLovinMediationUnityAdsAdapter.framework */,
+				B940EC4426BBB309003B6956 /* UnityAds.framework */,
+				B940EC4526BBB309003B6956 /* ISUnityAdsAdapter.framework */,
+				B940EC4626BBB309003B6956 /* UnityAdapter.framework */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		B940EC4726BBB309003B6956 /* Yodo1MasMediationUnityAds */ = {
+			isa = PBXGroup;
+			children = (
+				B940EC4826BBB309003B6956 /* Classes */,
+				B940EC4B26BBB309003B6956 /* Assets */,
+			);
+			path = Yodo1MasMediationUnityAds;
+			sourceTree = "<group>";
+		};
+		B940EC4826BBB309003B6956 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B940EC4926BBB309003B6956 /* Yodo1MasUnityAdsAdapter.h */,
+				B940EC4A26BBB309003B6956 /* Yodo1MasUnityAdsAdapter.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B940EC4B26BBB309003B6956 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B940EC4C26BBB309003B6956 /* Yodo1MasUnityAds.plist */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B940EC4D26BBB309003B6956 /* Yodo1MasMediationInMobi */ = {
+			isa = PBXGroup;
+			children = (
+				B940EC4E26BBB309003B6956 /* Lib */,
+				B940EC5326BBB309003B6956 /* Yodo1MasMediationInMobi */,
+			);
+			path = Yodo1MasMediationInMobi;
+			sourceTree = "<group>";
+		};
+		B940EC4E26BBB309003B6956 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				B940EC4F26BBB309003B6956 /* AppLovinMediationInMobiAdapter.framework */,
+				B940EC5026BBB309003B6956 /* InMobiAdapter.framework */,
+				B940EC5126BBB309003B6956 /* ISInMobiAdapter.framework */,
+				B940EC5226BBB309003B6956 /* InMobiSDK.xcframework */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		B940EC5326BBB309003B6956 /* Yodo1MasMediationInMobi */ = {
+			isa = PBXGroup;
+			children = (
+				B940EC5426BBB309003B6956 /* Classes */,
+				B940EC5726BBB309003B6956 /* Assets */,
+			);
+			path = Yodo1MasMediationInMobi;
+			sourceTree = "<group>";
+		};
+		B940EC5426BBB309003B6956 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B940EC5526BBB309003B6956 /* Yodo1MasInMobiAdapter.h */,
+				B940EC5626BBB309003B6956 /* Yodo1MasInMobiAdapter.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B940EC5726BBB309003B6956 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B940EC5826BBB309003B6956 /* Yodo1MasInMobi.plist */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B940EC5926BBB309003B6956 /* Yodo1MasMediationTencent */ = {
+			isa = PBXGroup;
+			children = (
+				B940EC5A26BBB309003B6956 /* Lib */,
+				B940EC7726BBB309003B6956 /* Yodo1MasMediationTencent */,
+			);
+			path = Yodo1MasMediationTencent;
+			sourceTree = "<group>";
+		};
+		B940EC5A26BBB309003B6956 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				B940EC5B26BBB309003B6956 /* GDTRewardVideoAdNetworkAdapterProtocol.h */,
+				B940EC5C26BBB309003B6956 /* GDTNativeExpressAdView.h */,
+				B940EC5D26BBB309003B6956 /* GDTAdParams.h */,
+				B940EC5E26BBB309003B6956 /* GDTAdTestSetting.h */,
+				B940EC5F26BBB309003B6956 /* GDTUnifiedBannerView.h */,
+				B940EC6026BBB309003B6956 /* GDTServerSideVerificationOptions.h */,
+				B940EC6126BBB309003B6956 /* GDTSDKConfig.h */,
+				B940EC6226BBB309003B6956 /* GDTBaseAdNetworkAdapterProtocol.h */,
+				B940EC6326BBB309003B6956 /* GDTRewardVideoAd.h */,
+				B940EC6426BBB309003B6956 /* GDTSplashAd.h */,
+				B940EC6526BBB309003B6956 /* GDTNativeExpressAd.h */,
+				B940EC6626BBB309003B6956 /* GDTLogoView.h */,
+				B940EC6726BBB309003B6956 /* AppLovinMediationTencentGDTAdapter.framework */,
+				B940EC6826BBB309003B6956 /* GDTMediaView.h */,
+				B940EC6926BBB309003B6956 /* GDTUnifiedNativeAdView.h */,
+				B940EC6A26BBB309003B6956 /* GDTNativeExpressRewardVideoAd.h */,
+				B940EC6B26BBB309003B6956 /* GDTHybridAd.h */,
+				B940EC6C26BBB309003B6956 /* GDTUnifiedNativeAdDataObject.h */,
+				B940EC6D26BBB309003B6956 /* GDTSDKDefines.h */,
+				B940EC6E26BBB309003B6956 /* GDTUnifiedInterstitialAd.h */,
+				B940EC6F26BBB309003B6956 /* libGDTMobSDK.a */,
+				B940EC7026BBB309003B6956 /* GDTNativeExpressProAdView.h */,
+				B940EC7126BBB309003B6956 /* GDTLoadAdParams.h */,
+				B940EC7226BBB309003B6956 /* GDTSplashZoomOutView.h */,
+				B940EC7326BBB309003B6956 /* GDTRewardVideoAdNetworkConnectorProtocol.h */,
+				B940EC7426BBB309003B6956 /* GDTNativeExpressProAdManager.h */,
+				B940EC7526BBB309003B6956 /* GDTUnifiedNativeAd.h */,
+				B940EC7626BBB309003B6956 /* GDTVideoConfig.h */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		B940EC7726BBB309003B6956 /* Yodo1MasMediationTencent */ = {
+			isa = PBXGroup;
+			children = (
+				B940EC7826BBB309003B6956 /* Classes */,
+				B940EC7B26BBB309003B6956 /* Lib */,
+				B940EC9726BBB309003B6956 /* Assets */,
+			);
+			path = Yodo1MasMediationTencent;
+			sourceTree = "<group>";
+		};
+		B940EC7826BBB309003B6956 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B940EC7926BBB309003B6956 /* Yodo1MasTencentAdapter.h */,
+				B940EC7A26BBB309003B6956 /* Yodo1MasTencentAdapter.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B940EC7B26BBB309003B6956 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				B940EC7C26BBB309003B6956 /* GDTRewardVideoAdNetworkAdapterProtocol.h */,
+				B940EC7D26BBB309003B6956 /* GDTNativeExpressAdView.h */,
+				B940EC7E26BBB309003B6956 /* GDTAdParams.h */,
+				B940EC7F26BBB309003B6956 /* GDTAdTestSetting.h */,
+				B940EC8026BBB309003B6956 /* GDTUnifiedBannerView.h */,
+				B940EC8126BBB309003B6956 /* GDTServerSideVerificationOptions.h */,
+				B940EC8226BBB309003B6956 /* GDTSDKConfig.h */,
+				B940EC8326BBB309003B6956 /* GDTBaseAdNetworkAdapterProtocol.h */,
+				B940EC8426BBB309003B6956 /* GDTRewardVideoAd.h */,
+				B940EC8526BBB309003B6956 /* GDTSplashAd.h */,
+				B940EC8626BBB309003B6956 /* GDTNativeExpressAd.h */,
+				B940EC8726BBB309003B6956 /* GDTLogoView.h */,
+				B940EC8826BBB309003B6956 /* GDTMediaView.h */,
+				B940EC8926BBB309003B6956 /* GDTUnifiedNativeAdView.h */,
+				B940EC8A26BBB309003B6956 /* GDTNativeExpressRewardVideoAd.h */,
+				B940EC8B26BBB309003B6956 /* GDTHybridAd.h */,
+				B940EC8C26BBB309003B6956 /* GDTUnifiedNativeAdDataObject.h */,
+				B940EC8D26BBB309003B6956 /* GDTSDKDefines.h */,
+				B940EC8E26BBB309003B6956 /* GDTUnifiedInterstitialAd.h */,
+				B940EC8F26BBB309003B6956 /* libGDTMobSDK.a */,
+				B940EC9026BBB309003B6956 /* GDTNativeExpressProAdView.h */,
+				B940EC9126BBB309003B6956 /* GDTLoadAdParams.h */,
+				B940EC9226BBB309003B6956 /* GDTSplashZoomOutView.h */,
+				B940EC9326BBB309003B6956 /* GDTRewardVideoAdNetworkConnectorProtocol.h */,
+				B940EC9426BBB309003B6956 /* GDTNativeExpressProAdManager.h */,
+				B940EC9526BBB309003B6956 /* GDTUnifiedNativeAd.h */,
+				B940EC9626BBB309003B6956 /* GDTVideoConfig.h */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		B940EC9726BBB309003B6956 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B940EC9826BBB309003B6956 /* Yodo1MasTencent.plist */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B940EC9926BBB309003B6956 /* Yodo1MasMediationIronSource */ = {
+			isa = PBXGroup;
+			children = (
+				B940EC9A26BBB309003B6956 /* Lib */,
+				B940EC9E26BBB309003B6956 /* Yodo1MasMediationIronSource */,
+			);
+			path = Yodo1MasMediationIronSource;
+			sourceTree = "<group>";
+		};
+		B940EC9A26BBB309003B6956 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				B940EC9B26BBB309003B6956 /* IronSourceAdapter.framework */,
+				B940EC9C26BBB309003B6956 /* AppLovinMediationIronSourceAdapter.framework */,
+				B940EC9D26BBB309003B6956 /* IronSource.framework */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		B940EC9E26BBB309003B6956 /* Yodo1MasMediationIronSource */ = {
+			isa = PBXGroup;
+			children = (
+				B940EC9F26BBB309003B6956 /* Classes */,
+				B940ECA426BBB309003B6956 /* Assets */,
+			);
+			path = Yodo1MasMediationIronSource;
+			sourceTree = "<group>";
+		};
+		B940EC9F26BBB309003B6956 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B940ECA026BBB309003B6956 /* Yodo1MasIronSourceAdapter.h */,
+				B940ECA126BBB309003B6956 /* Yodo1MasIronSourceMaxAdapter.m */,
+				B940ECA226BBB309003B6956 /* Yodo1MasIronSourceAdapter.m */,
+				B940ECA326BBB309003B6956 /* Yodo1MasIronSourceMaxAdapter.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B940ECA426BBB309003B6956 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B940ECA526BBB309003B6956 /* Yodo1MasIronSource.plist */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B9B1BBAF26BBB3E9000400DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9B1BBB926BBB456000400DF /* libxml2.2.tbd */,
+				B9B1BBB826BBB451000400DF /* libz.tbd */,
+				B9B1BBB726BBB44B000400DF /* libiconv.tbd */,
+				B9B1BBB626BBB445000400DF /* libresolv.tbd */,
+				B9B1BBB526BBB43D000400DF /* libbz2.tbd */,
+				B9B1BBB426BBB401000400DF /* libxml2.tbd */,
+				B9B1BBB326BBB3F9000400DF /* libsqlite3.0.tbd */,
+				B9B1BBB226BBB3F4000400DF /* libsqlite3.tbd */,
+				B9B1BBB126BBB3ED000400DF /* libc++abi.tbd */,
+				B9B1BBB026BBB3E9000400DF /* libc++.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B940EB2026BBB2A0003B6956 /* Yodo1MasSdkDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B940EB3A26BBB2A1003B6956 /* Build configuration list for PBXNativeTarget "Yodo1MasSdkDemo" */;
+			buildPhases = (
+				B940EB1D26BBB2A0003B6956 /* Sources */,
+				B940EB1E26BBB2A0003B6956 /* Frameworks */,
+				B940EB1F26BBB2A0003B6956 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yodo1MasSdkDemo;
+			productName = Yodo1MasSdkDemo;
+			productReference = B940EB2126BBB2A0003B6956 /* Yodo1MasSdkDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B940EB1926BBB2A0003B6956 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					B940EB2026BBB2A0003B6956 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = B940EB1C26BBB2A0003B6956 /* Build configuration list for PBXProject "Yodo1MasSdkDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B940EB1826BBB2A0003B6956;
+			productRefGroup = B940EB2226BBB2A0003B6956 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B940EB2026BBB2A0003B6956 /* Yodo1MasSdkDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B940EB1F26BBB2A0003B6956 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B940ECAB26BBB309003B6956 /* IASDKResources.bundle in Resources */,
+				B940EB3426BBB2A1003B6956 /* LaunchScreen.storyboard in Resources */,
+				B940ECBD26BBB309003B6956 /* Yodo1SensorsAnalyticsSDK.bundle in Resources */,
+				B940ED1D26BBB30A003B6956 /* Yodo1MasVungle.plist in Resources */,
+				B940ED2926BBB30A003B6956 /* Yodo1MasInMobi.plist in Resources */,
+				B940ECE826BBB30A003B6956 /* Yodo1MasFacebook.plist in Resources */,
+				B940ED0A26BBB30A003B6956 /* BUAdSDK.bundle in Resources */,
+				B940EB3126BBB2A1003B6956 /* Assets.xcassets in Resources */,
+				B940ED0D26BBB30A003B6956 /* Yodo1MasApplovin.plist in Resources */,
+				B940ECA726BBB309003B6956 /* Yodo1MasFyber.plist in Resources */,
+				B940ECF826BBB30A003B6956 /* Yodo1MasTapjoy.plist in Resources */,
+				B940ECD626BBB309003B6956 /* Yodo1MasCore.plist in Resources */,
+				B940ECE126BBB309003B6956 /* Yodo1MasYandex.plist in Resources */,
+				B940ECB426BBB309003B6956 /* Yodo1MasAdMob.plist in Resources */,
+				B940ED0326BBB30A003B6956 /* Yodo1MasPangle.plist in Resources */,
+				B940EB2F26BBB2A0003B6956 /* Main.storyboard in Resources */,
+				B940ECB026BBB309003B6956 /* yodo1mas.plist in Resources */,
+				B940ED2E26BBB30A003B6956 /* Yodo1MasTencent.plist in Resources */,
+				B940ECFE26BBB30A003B6956 /* Yodo1MasMyTarget.plist in Resources */,
+				B940ED1326BBB30A003B6956 /* Yodo1MasAdColony.plist in Resources */,
+				B940ED3426BBB30A003B6956 /* Yodo1MasIronSource.plist in Resources */,
+				B940ED2326BBB30A003B6956 /* Yodo1MasUnityAds.plist in Resources */,
+				B940ED1126BBB30A003B6956 /* AppLovinSDKResources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B940EB1D26BBB2A0003B6956 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B940ECD526BBB309003B6956 /* Yodo1MasAdEvent.m in Sources */,
+				B940ECDD26BBB309003B6956 /* AFNetworkReachabilityManager.m in Sources */,
+				B940ECCE26BBB309003B6956 /* Yodo1MasInitConfig.m in Sources */,
+				B940ED1226BBB30A003B6956 /* Yodo1MasAdColonyAdapter.m in Sources */,
+				B940ECEC26BBB30A003B6956 /* FBSDKCrashHandler.m in Sources */,
+				B940ECB226BBB309003B6956 /* Yodo1MasAdaptersPrivacy.m in Sources */,
+				B940ECDA26BBB309003B6956 /* AFHTTPSessionManager.m in Sources */,
+				B940EB2C26BBB2A0003B6956 /* ViewController.m in Sources */,
+				B940ED2826BBB30A003B6956 /* Yodo1MasInMobiAdapter.m in Sources */,
+				B940ECC326BBB309003B6956 /* Yodo1AVPlayer.m in Sources */,
+				B940EB2626BBB2A0003B6956 /* AppDelegate.m in Sources */,
+				B940ECF726BBB30A003B6956 /* Yodo1MasTapjoyAdapter.m in Sources */,
+				B940ECC626BBB309003B6956 /* UIView+Yodo1LayoutMethods.m in Sources */,
+				B940ED0C26BBB30A003B6956 /* Yodo1MasAppLovinMaxAdapter.m in Sources */,
+				B940ECDB26BBB309003B6956 /* AFURLSessionManager.m in Sources */,
+				B940ECF326BBB30A003B6956 /* FBSDKUserDataStore.m in Sources */,
+				B940ECC826BBB309003B6956 /* Yodo1MasBanner.m in Sources */,
+				B940ECF226BBB30A003B6956 /* FBSDKSafeCast.m in Sources */,
+				B940ECC126BBB309003B6956 /* Yodo1ImageHelp.m in Sources */,
+				B940ECF426BBB30A003B6956 /* FBSDKBase64.m in Sources */,
+				B940ECCC26BBB309003B6956 /* Yodo1MasNetworkConfig.m in Sources */,
+				B940ECD226BBB309003B6956 /* Yodo1MasNetworkAdvert.m in Sources */,
+				B940ECEB26BBB30A003B6956 /* FBSDKLibAnalyzer.m in Sources */,
+				B940ECC226BBB309003B6956 /* Yodo1VideoView.m in Sources */,
+				B940ECD126BBB309003B6956 /* Yodo1MasNetworkWaterfall.m in Sources */,
+				B940ECC726BBB309003B6956 /* Yodo1MasAdapterBase.m in Sources */,
+				B940ECB326BBB309003B6956 /* Yodo1MasAdMobMaxAdapter.m in Sources */,
+				B940ECCD26BBB309003B6956 /* Yodo1MasInitNetworkInfo.m in Sources */,
+				B940ECE026BBB309003B6956 /* Yodo1MasYandexAdapter.m in Sources */,
+				B940ECD826BBB309003B6956 /* YYClassInfo.m in Sources */,
+				B940ECC426BBB309003B6956 /* Yodo1VideoViewController.m in Sources */,
+				B940ECCF26BBB309003B6956 /* Yodo1MasInitData.m in Sources */,
+				B940ED2226BBB30A003B6956 /* Yodo1MasUnityAdsAdapter.m in Sources */,
+				B940ECD926BBB309003B6956 /* AFURLResponseSerialization.m in Sources */,
+				B940ECBE26BBB309003B6956 /* Yodo1Ads.m in Sources */,
+				B940ECBF26BBB309003B6956 /* Yodo1InterstitialViewController.m in Sources */,
+				B940ECEE26BBB30A003B6956 /* FBSDKBasicUtility.m in Sources */,
+				B940ECF026BBB30A003B6956 /* FBSDKTypeUtility.m in Sources */,
+				B940ED2C26BBB30A003B6956 /* Yodo1MasTencentAdapter.m in Sources */,
+				B940ED1C26BBB30A003B6956 /* Yodo1MasVungleAdapter.m in Sources */,
+				B940ECEF26BBB30A003B6956 /* FBSDKURLSession.m in Sources */,
+				B940ED0B26BBB30A003B6956 /* Yodo1MasAppLovinAdapter.m in Sources */,
+				B940ECED26BBB30A003B6956 /* FBSDKJSONValue.m in Sources */,
+				B940ECB126BBB309003B6956 /* Yodo1MasAdMobAdapter.m in Sources */,
+				B940ECC526BBB309003B6956 /* Yodo1AdsManager.m in Sources */,
+				B940ED3326BBB30A003B6956 /* Yodo1MasIronSourceAdapter.m in Sources */,
+				B940ED0226BBB30A003B6956 /* Yodo1MasPangleAdapter.m in Sources */,
+				B940EB3726BBB2A1003B6956 /* main.m in Sources */,
+				B940EB2926BBB2A0003B6956 /* SceneDelegate.m in Sources */,
+				B940ECC026BBB309003B6956 /* Yodo1MasBannerView.m in Sources */,
+				B940ECD426BBB309003B6956 /* Yodo1MasError.m in Sources */,
+				B940ECD026BBB309003B6956 /* Yodo1MasNetworkPlacement.m in Sources */,
+				B940ECDC26BBB309003B6956 /* AFURLRequestSerialization.m in Sources */,
+				B940ECCB26BBB309003B6956 /* Yodo1MasNetworkMediation.m in Sources */,
+				B940ECC926BBB309003B6956 /* Yodo1MasAdBuildConfig.m in Sources */,
+				B940ECCA26BBB309003B6956 /* Yodo1MasInitMediationInfo.m in Sources */,
+				B940ECDE26BBB309003B6956 /* AFSecurityPolicy.m in Sources */,
+				B940ECF126BBB30A003B6956 /* FBSDKURLSessionTask.m in Sources */,
+				B940ECE626BBB30A003B6956 /* Yodo1MasFacebookAdapter.m in Sources */,
+				B940ECD726BBB309003B6956 /* NSObject+YYModel.m in Sources */,
+				B940ECD326BBB309003B6956 /* Yodo1Mas.m in Sources */,
+				B940ECA626BBB309003B6956 /* Yodo1MasFyberAdapter.m in Sources */,
+				B940ECFD26BBB30A003B6956 /* Yodo1MasMyTargetAdapter.m in Sources */,
+				B940ED3226BBB30A003B6956 /* Yodo1MasIronSourceMaxAdapter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B940EB2D26BBB2A0003B6956 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B940EB2E26BBB2A0003B6956 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B940EB3226BBB2A1003B6956 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B940EB3326BBB2A1003B6956 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B940EB3826BBB2A1003B6956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B940EB3926BBB2A1003B6956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B940EB3B26BBB2A1003B6956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SG62393NFU;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Yodo1MasSdkDemo/Yodo1MasFull/Yodo1MasMediationFyber/Lib",
+					"$(PROJECT_DIR)/Yodo1MasSdkDemo/Yodo1MasFull/Yodo1MasMediationAdMob/Lib",
+					"$(PROJECT_DIR)/Yodo1MasSdkDemo/Yodo1MasFull/Yodo1MasCore",
+					"$(PROJECT_DIR)/Yodo1MasSdkDemo/Yodo1MasFull/Yodo1MasMediationYandex/Lib",
+					"$(PROJECT_DIR)/Yodo1MasSdkDemo/Yodo1MasFull/Yodo1MasMediationFacebook/Yodo1MasMediationFacebook/Lib",
+					"$(PROJECT_DIR)/Yodo1MasSdkDemo/Yodo1MasFull/Yodo1MasMediationFacebook/Lib",
+					"$(PROJECT_DIR)/Yodo1MasSdkDemo/Yodo1MasFull/Yodo1MasMediationTapjoy/Lib",
+					"$(PROJECT_DIR)/Yodo1MasSdkDemo/Yodo1MasFull/Yodo1MasMediationMyTarget/Lib",
+					"$(PROJECT_DIR)/Yodo1MasSdkDemo/Yodo1MasFull/Yodo1MasMediationPangle/Lib",
+					"$(PROJECT_DIR)/Yodo1MasSdkDemo/Yodo1MasFull/Yodo1MasMediationApplovin/Lib",
+					"$(PROJECT_DIR)/Yodo1MasSdkDemo/Yodo1MasFull/Yodo1MasMediationAdColony/Lib",
+					"$(PROJECT_DIR)/Yodo1MasSdkDemo/Yodo1MasFull/Yodo1MasMediationVungle/Lib",
+					"$(PROJECT_DIR)/Yodo1MasSdkDemo/Yodo1MasFull/Yodo1MasMediationUnityAds/Lib",
+					"$(PROJECT_DIR)/Yodo1MasSdkDemo/Yodo1MasFull/Yodo1MasMediationInMobi/Lib",
+					"$(PROJECT_DIR)/Yodo1MasSdkDemo/Yodo1MasFull/Yodo1MasMediationTencent/Lib",
+					"$(PROJECT_DIR)/Yodo1MasSdkDemo/Yodo1MasFull/Yodo1MasMediationIronSource/Lib",
+				);
+				INFOPLIST_FILE = Yodo1MasSdkDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Yodo1MasSdkDemo/Yodo1MasFull/Yodo1MasMediationTencent/Lib",
+					"$(PROJECT_DIR)/Yodo1MasSdkDemo/Yodo1MasFull/Yodo1MasMediationTencent/Yodo1MasMediationTencent/Lib",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"bz2\"",
+					"-l\"c++\"",
+					"-l\"c++abi\"",
+					"-l\"iconv\"",
+					"-l\"resolv\"",
+					"-l\"sqlite3\"",
+					"-l\"sqlite3.0\"",
+					"-l\"xml2\"",
+					"-l\"xml2.2\"",
+					"-l\"z\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yodo1.rod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B940EB3C26BBB2A1003B6956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SG62393NFU;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Yodo1MasSdkDemo/Yodo1MasFull/Yodo1MasMediationFyber/Lib",
+					"$(PROJECT_DIR)/Yodo1MasSdkDemo/Yodo1MasFull/Yodo1MasMediationAdMob/Lib",
+					"$(PROJECT_DIR)/Yodo1MasSdkDemo/Yodo1MasFull/Yodo1MasCore",
+					"$(PROJECT_DIR)/Yodo1MasSdkDemo/Yodo1MasFull/Yodo1MasMediationYandex/Lib",
+					"$(PROJECT_DIR)/Yodo1MasSdkDemo/Yodo1MasFull/Yodo1MasMediationFacebook/Yodo1MasMediationFacebook/Lib",
+					"$(PROJECT_DIR)/Yodo1MasSdkDemo/Yodo1MasFull/Yodo1MasMediationFacebook/Lib",
+					"$(PROJECT_DIR)/Yodo1MasSdkDemo/Yodo1MasFull/Yodo1MasMediationTapjoy/Lib",
+					"$(PROJECT_DIR)/Yodo1MasSdkDemo/Yodo1MasFull/Yodo1MasMediationMyTarget/Lib",
+					"$(PROJECT_DIR)/Yodo1MasSdkDemo/Yodo1MasFull/Yodo1MasMediationPangle/Lib",
+					"$(PROJECT_DIR)/Yodo1MasSdkDemo/Yodo1MasFull/Yodo1MasMediationApplovin/Lib",
+					"$(PROJECT_DIR)/Yodo1MasSdkDemo/Yodo1MasFull/Yodo1MasMediationAdColony/Lib",
+					"$(PROJECT_DIR)/Yodo1MasSdkDemo/Yodo1MasFull/Yodo1MasMediationVungle/Lib",
+					"$(PROJECT_DIR)/Yodo1MasSdkDemo/Yodo1MasFull/Yodo1MasMediationUnityAds/Lib",
+					"$(PROJECT_DIR)/Yodo1MasSdkDemo/Yodo1MasFull/Yodo1MasMediationInMobi/Lib",
+					"$(PROJECT_DIR)/Yodo1MasSdkDemo/Yodo1MasFull/Yodo1MasMediationTencent/Lib",
+					"$(PROJECT_DIR)/Yodo1MasSdkDemo/Yodo1MasFull/Yodo1MasMediationIronSource/Lib",
+				);
+				INFOPLIST_FILE = Yodo1MasSdkDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Yodo1MasSdkDemo/Yodo1MasFull/Yodo1MasMediationTencent/Lib",
+					"$(PROJECT_DIR)/Yodo1MasSdkDemo/Yodo1MasFull/Yodo1MasMediationTencent/Yodo1MasMediationTencent/Lib",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"bz2\"",
+					"-l\"c++\"",
+					"-l\"c++abi\"",
+					"-l\"iconv\"",
+					"-l\"resolv\"",
+					"-l\"sqlite3\"",
+					"-l\"sqlite3.0\"",
+					"-l\"xml2\"",
+					"-l\"xml2.2\"",
+					"-l\"z\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yodo1.rod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B940EB1C26BBB2A0003B6956 /* Build configuration list for PBXProject "Yodo1MasSdkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B940EB3826BBB2A1003B6956 /* Debug */,
+				B940EB3926BBB2A1003B6956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B940EB3A26BBB2A1003B6956 /* Build configuration list for PBXNativeTarget "Yodo1MasSdkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B940EB3B26BBB2A1003B6956 /* Debug */,
+				B940EB3C26BBB2A1003B6956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B940EB1926BBB2A0003B6956 /* Project object */;
+}

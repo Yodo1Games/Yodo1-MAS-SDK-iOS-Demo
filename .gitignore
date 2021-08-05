@@ -32,3 +32,7 @@ Pods/
 Podfile.lock
 .DS_Store
 .xcworkspace
+
+### SDK
+Yodo1MasFull/
+Yodo1MasLite/
