@@ -102,6 +102,8 @@
      *  offset.x < 0, the banner will move to the left
      *  offset.y > 0, the banner will move to the bottom
      *  offset.y < 0, the banner will move to the top
+     *
+     *  Click here to see more details: https://developers.yodo1.com/knowledge-base/ios-banner-integration/
      */
     CGPoint offset = CGPointMake(0, 0);
     [[Yodo1Mas sharedInstance] showBannerAdWithPlacement:placement align:align offset:offset];
