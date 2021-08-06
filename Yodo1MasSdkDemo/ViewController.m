@@ -74,20 +74,35 @@
     
     /**
      *
-     * banner alignment, align = vertical | horizontal
+     * 'align' will determine the general position of the banner, such as:
+     * - top horizontal center
+     * - bottom horizontal center
+     * - left vertical center
+     * - right vertical center
+     * - horizontal vertical center
+     *  The above 5 positions can basically meet most of the needs
+     *
+     * align = vertical | horizontal
      * vertical:
-     * Yodo1Mas.BannerTop
-     * Yodo1Mas.BannerBottom
-     * Yodo1Mas.BannerVerticalCenter
+     * Yodo1MasAdBannerAlignTop
+     * Yodo1MasAdBannerAlignBottom
+     * Yodo1MasAdBannerAlignVerticalCenter
      * horizontal:
-     * Yodo1Mas.BannerLeft
-     * Yodo1Mas.BannerRight
-     * Yodo1Mas.BannerHorizontalCenter
+     * Yodo1MasAdBannerAlignLeft
+     * Yodo1MasAdBannerAlignRight
+     * Yodo1MasAdBannerAlignHorizontalCenter
      *
      */
     Yodo1MasAdBannerAlign align = Yodo1MasAdBannerAlignBottom | Yodo1MasAdBannerAlignHorizontalCenter;
     
-    // offset horizontal offset and vertical offset, offset.x > 0, the banner will move to the right. offset.x < 0, the banner will move to the left, offset.y > 0, the banner will move to the bottom. offset.y < 0, the banner will move to the top
+    /**
+     *  'offset' will adjust the position of the banner on the basis of 'align'
+     *  If 'align' cannot meet the demand, you can adjust it by 'offset'
+     *  offset.x > 0, the banner will move to the right
+     *  offset.x < 0, the banner will move to the left
+     *  offset.y > 0, the banner will move to the bottom
+     *  offset.y < 0, the banner will move to the top
+     */
     CGPoint offset = CGPointMake(0, 0);
     [[Yodo1Mas sharedInstance] showBannerAdWithPlacement:placement align:align offset:offset];
 }
