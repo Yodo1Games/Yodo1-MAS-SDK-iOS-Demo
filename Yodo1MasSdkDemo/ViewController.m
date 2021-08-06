@@ -70,7 +70,43 @@
 }
 
 - (IBAction)onBannerClicked:(UIButton *)sender {
-    [[Yodo1Mas sharedInstance] showBannerAd];
+    NSString *placement = @"placementId";
+    
+    /**
+     *
+     * 'align' will determine the general position of the banner, such as:
+     * - top horizontal center
+     * - bottom horizontal center
+     * - left vertical center
+     * - right vertical center
+     * - horizontal vertical center
+     *  The above 5 positions can basically meet most of the needs
+     *
+     * align = vertical | horizontal
+     * vertical:
+     * Yodo1MasAdBannerAlignTop
+     * Yodo1MasAdBannerAlignBottom
+     * Yodo1MasAdBannerAlignVerticalCenter
+     * horizontal:
+     * Yodo1MasAdBannerAlignLeft
+     * Yodo1MasAdBannerAlignRight
+     * Yodo1MasAdBannerAlignHorizontalCenter
+     *
+     */
+    Yodo1MasAdBannerAlign align = Yodo1MasAdBannerAlignBottom | Yodo1MasAdBannerAlignHorizontalCenter;
+    
+    /**
+     *  'offset' will adjust the position of the banner on the basis of 'align'
+     *  If 'align' cannot meet the demand, you can adjust it by 'offset'
+     *  offset.x > 0, the banner will move to the right
+     *  offset.x < 0, the banner will move to the left
+     *  offset.y > 0, the banner will move to the bottom
+     *  offset.y < 0, the banner will move to the top
+     *
+     *  Click here to see more details: https://developers.yodo1.com/knowledge-base/ios-banner-integration/
+     */
+    CGPoint offset = CGPointMake(0, 0);
+    [[Yodo1Mas sharedInstance] showBannerAdWithPlacement:placement align:align offset:offset];
 }
 
 - (IBAction)onAppLovinMediationDebuggerClicked:(UIButton *)sender {
